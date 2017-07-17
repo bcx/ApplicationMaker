@@ -82,25 +82,32 @@ Begin["`Private`"];
 
 
 NewApplication[args___] := (Message[NewApplication::argerr];$Failed)
-MakeDirectory[root_, start_,main_, sub_] := Module[
-{nm, ns, tmp},
-nm = Position[main, start];
-If[Length@nm != 0, nm=nm[[1,1]]];
-If[Length@sub[[nm]] !=0,
-Do[
-tmp=FileNameJoin[{root,start,sub[[nm,i]]}];
-If[DirectoryQ[tmp], 
-Print[Style["Existing Directory : ", "MSG", Gray],Style[tmp, "MSG", Bold]], 
-CreateDirectory[tmp];
-Print[Style["Directory Created  : ", "MSG", Blue],Style[tmp, "MSG", Bold]]
-];
-,{i,Length@sub[[nm]]}]
-];
-Do[
-MakeDirectory[FileNameJoin[{root,start}], sub[[nm,i]], main, sub];
-,{i,Length@sub[[nm]]}
-]
-]
+MakeDirectory[root_, start_, main_, sub_] := Module[
+  {nm, ns, tmp},
+  nm = Position[main, start];
+  If[Length@nm != 0, nm = nm[[1, 1]]];
+  If[Length@sub[[nm]] != 0,
+   Do[
+    tmp = 
+     If[StringLength[root] != 0, 
+      FileNameJoin[{root, start, sub[[nm, i]]}], 
+      FileNameJoin[{start, sub[[nm, i]]}]];
+      
+    If[DirectoryQ[tmp], 
+     Print[Style["Existing Directory : ", "MSG", Gray], Style[tmp, "MSG", Bold]], 
+     CreateDirectory[tmp];
+     Print[Style["Directory Created  : ", "MSG", Blue], Style[tmp, "MSG", Bold]]
+    ];
+    , {i, Length@sub[[nm]]}]
+   ];
+  Do[
+   MakeDirectory[
+    If[StringLength[root] != 0, FileNameJoin[{root, start}], start], 
+    sub[[nm, i]], main, sub
+   ];
+   , {i, Length@sub[[nm]]}
+  ];
+ ];
 NewApplication[
 appName_String, 
 appDir_String:FileNameJoin[{ $UserBaseDirectory,"Applications"}]
