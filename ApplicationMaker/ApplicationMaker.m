@@ -97,8 +97,8 @@ Print[Style["Directory Created  : ", "MSG", Blue],Style[tmp, "MSG", Bold]]
 ,{i,Length@sub[[nm]]}]
 ];
 Do[
-MakeDirectory[FileNameJoin[{root,start}], sub[[nm,i]], main, sub],
-{i,Length@sub[[nm]]}
+MakeDirectory[FileNameJoin[{root,start}], sub[[nm,i]], main, sub];
+,{i,Length@sub[[nm]]}
 ]
 ]
 NewApplication[
