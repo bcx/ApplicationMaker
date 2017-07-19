@@ -10,18 +10,18 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     19788,        587]
-NotebookOptionsPosition[     16061,        469]
-NotebookOutlinePosition[     18052,        524]
-CellTagsIndexPosition[     17967,        519]
+NotebookDataLength[     23419,        625]
+NotebookOptionsPosition[     18204,        482]
+NotebookOutlinePosition[     20186,        538]
+CellTagsIndexPosition[     20101,        533]
 WindowTitle->ViewNotebookOption - ApplicationMaker`DocumentationMaker`
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[GridBox[{
-   {Cell["APPLICATIONMAKER`DOCUMENTATIONMAKER` SYMBOL", "PacletNameCell"], 
-    Cell[TextData[{
+   {Cell["APPLICATIONMAKER`DOCUMENTATIONMAKER` SYMBOL", "PacletNameCell",
+     ExpressionUUID->"fbf923a2-1759-426d-91bb-70836d7c7525"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
@@ -32,7 +32,8 @@ Cell[BoxData[GridBox[{
          "/tutorial/HowToBuildADocumentedPackage"]]},
        Appearance->None,
        MenuAppearance->Automatic]],
-      LineSpacing->{1.4, 0}],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "515d43fd-3dbf-4b4f-8551-9310d95858a5"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -47,7 +48,8 @@ Cell[BoxData[GridBox[{
         StringJoin["paclet:", "ApplicationMaker", "/ref/ViewOption"]]},
        Appearance->None,
        MenuAppearance->Automatic]],
-      LineSpacing->{1.4, 0}],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "fcc1a719-3c4b-4279-bd32-ec5debce131d"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -58,7 +60,8 @@ Cell[BoxData[GridBox[{
         StringJoin["paclet:", "ApplicationMaker", "/guide/ApplicationMaker"]]},
        Appearance->None,
        MenuAppearance->Automatic]],
-      LineSpacing->{1.4, 0}],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "6935d266-faee-4cf5-8df4-025fda1475ee"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -79,15 +82,16 @@ to-mathematicas-documentation-center"], None}]}],
            URL["http://math.uh.edu/~jmlopez/"], None}]}]},
        Appearance->None,
        MenuAppearance->Automatic]],
-      LineSpacing->{1.4, 0}]
-    }], "AnchorBar"]}
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "c8afa7ef-9426-46f1-8dfb-e22bd6bdbe48"]
+    }], "AnchorBar",ExpressionUUID->"9f7181bc-a5ce-4b13-9b08-8d3217de9843"]}
   }]], "AnchorBarGrid",
- CellID->1699355767],
+ CellID->1699355767,ExpressionUUID->"95233847-bee7-4a8c-9012-a9e4182842e4"],
 
 Cell[CellGroupData[{
 
 Cell["ViewNotebookOption", "ObjectName",
- CellID->242853283],
+ CellID->242853283,ExpressionUUID->"d9a6a4dc-8aac-4da5-b874-a6d17a0ea5a1"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -96,12 +100,13 @@ Cell[BoxData[GridBox[{
        ButtonBox["ViewNotebookOption",
         BaseStyle->"Link",
         ButtonData->"paclet:ApplicationMaker/ref/ViewNotebookOption"], "[", 
-       StyleBox["name", "TI"], "]"}]], "InlineFormula"],
+       StyleBox["name", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "a9ef5320-ee1e-4f7a-a5ea-dc24d98795f3"],
      "\[LineSeparator]Inserts an input cell in the evaluation notebook \
 displaying the settings for the option ",
      StyleBox["name", "TI"],
      "."
-    }]]},
+    }],ExpressionUUID->"f5914b9c-abc6-496d-9622-564b6e1d8a83"]},
    {" ", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -110,13 +115,14 @@ displaying the settings for the option ",
         ButtonData->"paclet:ApplicationMaker/ref/ViewNotebookOption"], "[", 
        StyleBox[
         RowBox[{"name", ",", " ", "notebook"}], "TI"], "]"}]], 
-      "InlineFormula"],
+      "InlineFormula",ExpressionUUID->"7ca4d71f-b50b-4160-ba7b-7348e4307e7f"],
+     
      "\[LineSeparator]Displays the settings for the option ",
      StyleBox["name", "TI"],
      " of the specified notebook."
-    }]]}
+    }],ExpressionUUID->"cc7501c1-366d-4d53-81d4-7a8b14381d74"]}
   }]], "Usage",
- CellID->1416198081]
+ CellID->1416198081,ExpressionUUID->"2c3df890-ca4f-48cf-9948-8389175de8b6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -136,10 +142,13 @@ Cell[TextData[Cell[BoxData[
      FrontEnd`SelectionMove[
       FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
   Evaluator->None,
-  Method->"Preemptive"]]]], "NotesSection",
+  Method->
+   "Preemptive"]],ExpressionUUID->"e33fa53b-4a24-4ea6-886f-cb24faae95fa"]], \
+"NotesSection",
  CellGroupingRules->{"SectionGrouping", 50},
  CellID->1479887666,
- ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> True],
+ ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
+ True,ExpressionUUID->"ed35ad62-fcd8-418f-8c2d-63cbd2f359a9"],
 
 Cell[TextData[{
  "This is no different from ",
@@ -149,7 +158,7 @@ Cell[TextData[{
  ". This function is mainly a shortcut to obtain the settings for an option \
 of the evaluation notebook."
 }], "Notes",
- CellID->316402908]
+ CellID->316402908,ExpressionUUID->"e7424852-49c7-444d-b325-703d6e9b1838"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -168,22 +177,23 @@ Cell[TextData[ButtonBox["EXAMPLES",
      CellContents]}]& )]], "PrimaryExamplesSection",
  CellTags->"PrimaryExamplesSection",
  CellID->1461117206,
- ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> True],
+ ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
+ True,ExpressionUUID->"95a2a021-28d7-4eb9-9ca2-58b9ce8ef579"],
 
 Cell[CellGroupData[{
 
 Cell[TextData[{
  "Basic Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
- Cell["(1)", "ExampleCount"]
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "a83a359a-db74-4016-9de6-8a30c7c9c0b1"]
 }], "ExampleSection", "ExampleSection",
  CellID->521377797,
- ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> True],
+ ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
+ True,ExpressionUUID->"3a1f7412-484e-43a4-a6fb-e41703bb877f"],
 
-Cell["\<\
-We can see the options of this notebook.\
-\>", "ExampleText",
- CellID->1063354419],
+Cell["We can see the options of this notebook.", "ExampleText",
+ CellID->1063354419,ExpressionUUID->"3976f8a4-3b37-4abd-b8be-e569ce1d62ad"],
 
 Cell[CellGroupData[{
 
@@ -191,7 +201,7 @@ Cell[BoxData[
  RowBox[{"Options", "[", 
   RowBox[{"EvaluationNotebook", "[", "]"}], "]"}]], "Input",
  CellLabel->"In[1]:=",
- CellID->1759304995],
+ CellID->1759304995,ExpressionUUID->"9d0a675b-20c0-4200-a42c-ed5e0e7dca48"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -268,24 +278,22 @@ the evaluation notebook displaying the settings for the option name.\"\>"}],
     "\[Rule]", "\<\"ViewNotebookOption - ApplicationMaker`DocumentationMaker`\
 \"\>"}]}], "}"}]], "Output",
  CellLabel->"Out[1]=",
- CellID->2084199069]
+ CellID->2084199069,ExpressionUUID->"a8977bef-c8ff-4eeb-a637-d13efc47051b"]
 }, Open  ]],
 
-Cell["\<\
-Now we display a few of them with the function.\
-\>", "ExampleText",
- CellID->1527986466],
+Cell["Now we display a few of them with the function.", "ExampleText",
+ CellID->1527986466,ExpressionUUID->"4afc4c18-edec-44e0-846f-75d688c7bff1"],
 
 Cell[BoxData[
  RowBox[{"<<", "ApplicationMaker`"}]], "Input",
  CellLabel->"In[2]:=",
- CellID->1259083236],
+ CellID->1259083236,ExpressionUUID->"8a71d468-8a78-45fa-99fc-a49990cb4c5a"],
 
 Cell[BoxData[
  RowBox[{"ViewNotebookOption", "[", "\"\<StyleDefinitions\>\"", 
   "]"}]], "Input",
  CellLabel->"In[3]:=",
- CellID->108089914],
+ CellID->108089914,ExpressionUUID->"4805bb96-0269-4d2c-93fd-152c4efbbf74"],
 
 Cell[BoxData[
  StyleBox[
@@ -303,12 +311,12 @@ Cell[BoxData[
       RowBox[{"CharacterEncoding", " ", "->", " ", 
        RowBox[{"UTF", "-", "8"}]}]}], "]"}]}], "\[IndentingNewLine]"}], 
   "MSG"]], "Input",
- CellID->2043502883],
+ CellID->2043502883,ExpressionUUID->"2d167848-7d14-4d75-bac9-803594c3b557"],
 
 Cell[BoxData[
  RowBox[{"ViewNotebookOption", "[", "\"\<TaggingRules\>\"", "]"}]], "Input",
  CellLabel->"In[4]:=",
- CellID->446988110],
+ CellID->446988110,ExpressionUUID->"75b4c912-f409-43d2-b0c5-9369dcf1ae66"],
 
 Cell[BoxData[
  StyleBox[
@@ -371,8 +379,8 @@ evaluation notebook displaying the settings for the option name.\>\""}], ",",
       "\"\<SearchTextTranslated\>\"", " ", "\[Rule]", " ", "\"\<\>\""}]}], 
      "\[IndentingNewLine]", "}"}]}], "\[IndentingNewLine]"}], "MSG"]], "Input",\
 
- CellID->631367564]
-}, Closed]]
+ CellID->631367564,ExpressionUUID->"a358384e-81f6-49fb-a2c8-0accbe2cbb87"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -390,7 +398,8 @@ Cell[TextData[ButtonBox["SEE ALSO",
      FrontEnd`SelectedNotebook[], After, 
      CellContents]}]& )]], "SeeAlsoSection",
  CellID->83480331,
- ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> True],
+ ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
+ True,ExpressionUUID->"a5a0d1cc-5a42-401c-bc5a-b2cb7d13974b"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -398,7 +407,8 @@ Cell[TextData[{
    ButtonBox["EditNotebookOption",
     BaseStyle->"Link",
     ButtonData->"paclet:ApplicationMaker/ref/EditNotebookOption"],
-   FontFamily->"Verdana"]], "InlineFormula"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "00361a6c-45c9-4728-9367-c9f1a531d2e4"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -408,9 +418,10 @@ Cell[TextData[{
    ButtonBox["ViewOption",
     BaseStyle->"Link",
     ButtonData->"paclet:ApplicationMaker/ref/ViewOption"],
-   FontFamily->"Verdana"]], "InlineFormula"]
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "6b76f56b-5699-437e-9deb-a4a0fc9c5fec"]
 }], "SeeAlso",
- CellID->747101626]
+ CellID->747101626,ExpressionUUID->"55f3e9ba-94e8-4382-80be-a0db99eaf401"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -428,14 +439,15 @@ Cell[TextData[ButtonBox["TUTORIALS",
      FrontEnd`SelectedNotebook[], After, 
      CellContents]}]& )]], "TutorialsSection",
  CellID->200144173,
- ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> True],
+ ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
+ True,ExpressionUUID->"2f1a9cf6-34a1-4b38-91b3-6bed3a475490"],
 
 Cell[TextData[ButtonBox["How to build a documented package",
  BaseStyle->"Link",
  ButtonData->
   "paclet:ApplicationMaker/tutorial/HowToBuildADocumentedPackage"]], \
 "Tutorials",
- CellID->863724409]
+ CellID->863724409,ExpressionUUID->"0ecf70dd-3792-4d75-8e79-0d8ee784e967"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -453,19 +465,20 @@ Cell[TextData[ButtonBox["MORE ABOUT",
      FrontEnd`SelectedNotebook[], After, 
      CellContents]}]& )]], "MoreAboutSection",
  CellID->1014359816,
- ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> True],
+ ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
+ True,ExpressionUUID->"fb5b2871-7896-494d-a281-6a32ac960321"],
 
 Cell[TextData[ButtonBox["ApplicationMaker",
  BaseStyle->"Link",
  ButtonData->"paclet:ApplicationMaker/guide/ApplicationMaker"]], "MoreAbout",
- CellID->1620237626]
+ CellID->1620237626,ExpressionUUID->"6c6bb304-5baa-4391-a136-4fd47ac82ef9"]
 }, Open  ]],
 
 Cell["Made for Mathematica 8  |  Last modified in July 2011", "History",
- CellID->1081327916],
+ CellID->1081327916,ExpressionUUID->"fbc47b57-28eb-4147-a07d-d4e44dc637af"],
 
 Cell[" ", "FooterCell",
- CellID->1871663298]
+ CellID->1871663298,ExpressionUUID->"a58d9403-09cb-4cdb-858a-23bd445bd7ef"]
 },
 Saveable->False,
 WindowSize->{740, 652},
@@ -477,15 +490,14 @@ PageHeaders->{{None, None, None}, {None, None,
    Cell[
     TextData[{
       Cell[
-       TextData[{"ApplicationMaker Documentation "}], "PageHeader"], 
+       TextData[{""}], "PageHeader"], 
       Cell[
        TextData[{
          CounterBox["Page"]}], "PageNumber"]}], 
     CellMargins -> {{Inherited, -29}, {Inherited, Inherited}}]}},
 PageFooters->{{None, None, None}, {
    Cell[
-    TextData[{"Created by Manuel Lopez | July 12, 2011"}], "PageFooter"], 
-   None, None}},
+    TextData[{""}], "PageFooter"], None, None}},
 TaggingRules->{
  "ModificationHighlight" -> False, 
   "Metadata" -> {
@@ -500,8 +512,8 @@ notebook displaying the settings for the option name.",
     "ViewNotebookOption", "windowTitle" -> "ViewNotebookOption", "type" -> 
     "Symbol", "uri" -> "ApplicationMaker/ref/ViewNotebookOption"}, 
   "SearchTextTranslated" -> "", "LinkTrails" -> ""},
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
-2011)",
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
   CharacterEncoding -> "UTF-8"]
 ]
@@ -511,86 +523,111 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[5187, 156, 537, 14, 45, "PrimaryExamplesSection",
+  Cell[6117, 165, 594, 15, 
+  36, "PrimaryExamplesSection", "ExpressionUUID" -> "
+   95a2a021-28d7-4eb9-9ca2-58b9ce8ef579",
    CellTags->"PrimaryExamplesSection",
    CellID->1461117206]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 17823, 512}
+ {"PrimaryExamplesSection", 19890, 524}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[628, 21, 2527, 63, 47, "AnchorBarGrid",
+Cell[628, 21, 2941, 67, 61, "AnchorBarGrid", "ExpressionUUID" -> \
+"95233847-bee7-4a8c-9012-a9e4182842e4",
  CellID->1699355767],
 Cell[CellGroupData[{
-Cell[3180, 88, 60, 1, 51, "ObjectName",
+Cell[3594, 92, 115, 1, 57, "ObjectName", "ExpressionUUID" -> \
+"d9a6a4dc-8aac-4da5-b874-a6d17a0ea5a1",
  CellID->242853283],
-Cell[3243, 91, 922, 27, 138, "Usage",
+Cell[3712, 95, 1210, 29, 192, "Usage", "ExpressionUUID" -> \
+"2c3df890-ca4f-48cf-9948-8389175de8b6",
  CellID->1416198081]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4202, 123, 656, 18, 38, "NotesSection",
+Cell[4959, 129, 774, 21, 48, "NotesSection", "ExpressionUUID" -> \
+"ed35ad62-fcd8-418f-8c2d-63cbd2f359a9",
  CellGroupingRules->{"SectionGrouping", 50},
  CellID->1479887666],
-Cell[4861, 143, 289, 8, 43, "Notes",
+Cell[5736, 152, 344, 8, 57, "Notes", "ExpressionUUID" -> \
+"e7424852-49c7-444d-b325-703d6e9b1838",
  CellID->316402908]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5187, 156, 537, 14, 45, "PrimaryExamplesSection",
+Cell[6117, 165, 594, 15, 36, "PrimaryExamplesSection", "ExpressionUUID" -> \
+"95a2a021-28d7-4eb9-9ca2-58b9ce8ef579",
  CellTags->"PrimaryExamplesSection",
  CellID->1461117206],
 Cell[CellGroupData[{
-Cell[5749, 174, 241, 6, 32, "ExampleSection",
+Cell[6736, 184, 356, 8, 31, "ExampleSection", "ExpressionUUID" -> \
+"3a1f7412-484e-43a4-a6fb-e41703bb877f",
  CellID->521377797],
-Cell[5993, 182, 92, 3, 32, "ExampleText",
+Cell[7095, 194, 139, 1, 38, "ExampleText", "ExpressionUUID" -> \
+"3976f8a4-3b37-4abd-b8be-e569ce1d62ad",
  CellID->1063354419],
 Cell[CellGroupData[{
-Cell[6110, 189, 144, 4, 24, "Input",
+Cell[7259, 199, 199, 4, 29, "Input", "ExpressionUUID" -> \
+"9d0a675b-20c0-4200-a42c-ed5e0e7dca48",
  CellID->1759304995],
-Cell[6257, 195, 3130, 75, 255, "Output",
+Cell[7461, 205, 3185, 75, 327, "Output", "ExpressionUUID" -> \
+"a8977bef-c8ff-4eeb-a637-d13efc47051b",
  CellID->2084199069]
 }, Open  ]],
-Cell[9402, 273, 99, 3, 32, "ExampleText",
+Cell[10661, 283, 146, 1, 32, "ExampleText", "ExpressionUUID" -> \
+"4afc4c18-edec-44e0-846f-75d688c7bff1",
  CellID->1527986466],
-Cell[9504, 278, 105, 3, 24, "Input",
+Cell[10810, 286, 160, 3, 24, "Input", "ExpressionUUID" -> \
+"8a71d468-8a78-45fa-99fc-a49990cb4c5a",
  CellID->1259083236],
-Cell[9612, 283, 140, 4, 24, "Input",
+Cell[10973, 291, 195, 4, 24, "Input", "ExpressionUUID" -> \
+"4805bb96-0269-4d2c-93fd-152c4efbbf74",
  CellID->108089914],
-Cell[9755, 289, 659, 16, 73, "Input",
+Cell[11171, 297, 714, 16, 73, "Input", "ExpressionUUID" -> \
+"2d167848-7d14-4d75-bac9-803594c3b557",
  CellID->2043502883],
-Cell[10417, 307, 133, 3, 24, "Input",
+Cell[11888, 315, 188, 3, 24, "Input", "ExpressionUUID" -> \
+"75b4c912-f409-43d2-b0c5-9369dcf1ae66",
  CellID->446988110],
-Cell[10553, 312, 2829, 61, 436, "Input",
+Cell[12079, 320, 2884, 61, 436, "Input", "ExpressionUUID" -> \
+"a358384e-81f6-49fb-a2c8-0accbe2cbb87",
  CellID->631367564]
-}, Closed]]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13431, 379, 490, 13, 45, "SeeAlsoSection",
+Cell[15012, 387, 547, 14, 20, "SeeAlsoSection", "ExpressionUUID" -> \
+"a5a0d1cc-5a42-401c-bc5a-b2cb7d13974b",
  CellID->83480331],
-Cell[13924, 394, 548, 18, 19, "SeeAlso",
+Cell[15562, 403, 719, 20, 27, "SeeAlso", "ExpressionUUID" -> \
+"55f3e9ba-94e8-4382-80be-a0db99eaf401",
  CellID->747101626]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14509, 417, 494, 13, 45, "TutorialsSection",
+Cell[16318, 428, 551, 14, 20, "TutorialsSection", "ExpressionUUID" -> \
+"2f1a9cf6-34a1-4b38-91b3-6bed3a475490",
  CellID->200144173],
-Cell[15006, 432, 198, 5, 16, "Tutorials",
+Cell[16872, 444, 253, 5, 20, "Tutorials", "ExpressionUUID" -> \
+"0ecf70dd-3792-4d75-8e79-0d8ee784e967",
  CellID->863724409]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15241, 442, 496, 13, 45, "MoreAboutSection",
+Cell[17162, 454, 553, 14, 20, "MoreAboutSection", "ExpressionUUID" -> \
+"fb5b2871-7896-494d-a281-6a32ac960321",
  CellID->1014359816],
-Cell[15740, 457, 162, 3, 16, "MoreAbout",
+Cell[17718, 470, 217, 3, 20, "MoreAbout", "ExpressionUUID" -> \
+"6c6bb304-5baa-4391-a136-4fd47ac82ef9",
  CellID->1620237626]
 }, Open  ]],
-Cell[15917, 463, 93, 1, 42, "History",
+Cell[17950, 476, 148, 1, 20, "History", "ExpressionUUID" -> \
+"fbc47b57-28eb-4147-a07d-d4e44dc637af",
  CellID->1081327916],
-Cell[16013, 466, 44, 1, 24, "FooterCell",
+Cell[18101, 479, 99, 1, 20, "FooterCell", "ExpressionUUID" -> \
+"a58d9403-09cb-4cdb-858a-23bd445bd7ef",
  CellID->1871663298]
 }
 ]
 *)
 
-(* End of internal cache information *)

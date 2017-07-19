@@ -3,24 +3,25 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* CreatedBy='Mathematica 8.0' *)
+(* CreatedBy='Mathematica 11.1' *)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       157,          7]
-NotebookDataLength[     10344,        348]
-NotebookOptionsPosition[      7196,        250]
-NotebookOutlinePosition[      8960,        299]
-CellTagsIndexPosition[      8917,        296]
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13632,        372]
+NotebookOptionsPosition[      9254,        254]
+NotebookOutlinePosition[     10942,        302]
+CellTagsIndexPosition[     10899,        299]
 WindowTitle->ApplicationMaker - ApplicationMaker
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[GridBox[{
-   {Cell["APPLICATIONMAKER GUIDE", "PacletNameCell"], Cell[TextData[{
+   {Cell["APPLICATIONMAKER GUIDE", "PacletNameCell",ExpressionUUID->
+     "44d79ce5-337e-48d0-8105-a2e16f1ac32e"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
@@ -31,7 +32,8 @@ Cell[BoxData[GridBox[{
          "/tutorial/HowToBuildADocumentedPackage"]]},
        Appearance->None,
        MenuAppearance->Automatic]],
-      LineSpacing->{1.4, 0}],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "b9b5462b-3ec9-406a-8145-21deee6b1d87"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -52,171 +54,172 @@ to-mathematicas-documentation-center"], None}]}],
            URL["http://math.uh.edu/~jmlopez/"], None}]}]},
        Appearance->None,
        MenuAppearance->Automatic]],
-      LineSpacing->{1.4, 0}]
-    }], "AnchorBar"]}
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "016fb00a-b4e1-4aa5-8d9c-253b03304ce8"]
+    }], "AnchorBar",ExpressionUUID->"55fe43c9-ec59-494f-9dd0-1e7bdbde852c"]}
   }]], "AnchorBarGrid",
- CellID->982124020],
+ CellID->982124020,ExpressionUUID->"1d800eab-ba28-43ba-9b46-17db2d68b6ff"],
 
 Cell[CellGroupData[{
 
 Cell["ApplicationMaker", "GuideTitle",
- CellID->999093298],
+ CellID->999093298,ExpressionUUID->"ae889bb0-0e59-454d-b7fb-83f03dfeb4db"],
 
 Cell["\<\
 This application provides functions to build packages for an application as \
 well as its documentation.\
 \>", "GuideAbstract",
- CellID->586423593],
+ CellID->586423593,ExpressionUUID->"178017b4-d945-460c-869c-fdced983ea88"],
 
 Cell[CellGroupData[{
 
 Cell["ApplicationMaker", "GuideFunctionsSubsection",
- CellID->1218871468],
+ CellID->1218871468,ExpressionUUID->"778908bd-f9ea-4ff2-b412-ed87f22d688a"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["BuildApplication",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/BuildApplication"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"18d1205a-9104-4e05-8b96-89186650c0f7"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Build documentation and link to documentation center."
 }], "GuideText",
- CellID->203374175],
+ CellID->203374175,ExpressionUUID->"61689369-e1d5-46ad-8bfe-b6b41046e1c5"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["DeployApplication",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/DeployApplication"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"4c645ca2-bc1a-4905-9942-30c11c323172"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Copies the m files and documentation of your application to a directory."
 }], "GuideText",
- CellID->1872187008],
+ CellID->1872187008,ExpressionUUID->"616e7c19-0c39-4c37-87de-8b49a22cb9ba"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["NewApplication",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/NewApplication"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"4beb61f0-3649-4bb7-ad0c-68ea87ea8d81"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Creates a directory for the application."
 }], "GuideText",
- CellID->916647612]
+ CellID->916647612,ExpressionUUID->"66a683ca-4a71-4164-9d3a-e6ee272f4596"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["DocumentationMaker", "GuideFunctionsSubsection",
- CellID->48731306],
+ CellID->48731306,ExpressionUUID->"08fd3061-aefa-40ca-9da8-762fed20bd7f"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["CreateReferencePages",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/CreateReferencePages"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"c515c527-e683-4f3b-b931-414e808bab2e"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Creates reference pages for each symbol in the application."
 }], "GuideText",
- CellID->835790435],
+ CellID->835790435,ExpressionUUID->"19ada6c2-22e2-4560-b40a-a712118c9569"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["EditNotebookOption",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/EditNotebookOption"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"4351aea6-06a1-4043-8a8c-8b5c8d44286c"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Inserts an input cell with an expression to modify a notebook's option."
 }], "GuideText",
- CellID->439306018],
+ CellID->439306018,ExpressionUUID->"201e638a-be1f-4dce-b278-42a39670e534"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["EditOption",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/EditOption"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"00a25d23-9a68-411b-821a-810c894f8806"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  "  Inserts an input cell with an expression to modify an object's option."
 }], "GuideText",
- CellID->367466140],
+ CellID->367466140,ExpressionUUID->"4edc0797-4a0d-4c77-9baf-10764d1f2fef"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["NewGuide",
   BaseStyle->"Link",
-  ButtonData->"paclet:ApplicationMaker/ref/NewGuide"]], 
-  "InlineFunctionSans"],
+  ButtonData->"paclet:ApplicationMaker/ref/NewGuide"]], "InlineFunctionSans",
+  ExpressionUUID->"a55b8e95-080b-4d3e-8e56-7ca98c10a1ef"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Creates a guide template for an application."
 }], "GuideText",
- CellID->1987929855],
+ CellID->1987929855,ExpressionUUID->"e603f10e-5e6a-4892-bc4b-2004bfe00265"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["NewTutorial",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/NewTutorial"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"7b948578-3b02-4a62-9228-70a595fb03f7"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Creates a tutorial template for an application."
 }], "GuideText",
- CellID->586492959],
+ CellID->586492959,ExpressionUUID->"2ab7deff-8a73-4e9e-a8c5-9953906bc63a"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["ViewNotebookOption",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/ViewNotebookOption"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"18cede81-2d15-4485-9dce-5d981da38681"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  "  Inserts a cell displaying the settings for the notebook's option.."
 }], "GuideText",
- CellID->237222183],
+ CellID->237222183,ExpressionUUID->"65ce2230-0454-49a5-9315-2757a9efed91"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["ViewOption",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/ViewOption"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"38ac6dc6-9e19-42da-9531-c97195452b12"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  "  Inserts a cell displaying the settings for an object's option."
 }], "GuideText",
- CellID->1263580849]
+ CellID->1263580849,ExpressionUUID->"bfeb9928-6c5a-4720-ba2c-a17573bea463"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["PackageMaker", "GuideFunctionsSubsection",
- CellID->537543960],
+ CellID->537543960,ExpressionUUID->"9128909c-1dfb-4de8-a40e-656b51835640"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["NewPackage",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/NewPackage"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"24830014-fab0-4d15-ad22-23fab7334cf6"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Creates a notebook to write a package."
 }], "GuideText",
- CellID->37632791],
+ CellID->37632791,ExpressionUUID->"20cb0ddb-285c-4434-af30-d1065fc8ffc5"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["UpdateInit",
   BaseStyle->"Link",
   ButtonData->"paclet:ApplicationMaker/ref/UpdateInit"]], 
-  "InlineFunctionSans"],
+  "InlineFunctionSans",ExpressionUUID->"d4ba5d5d-d716-4496-b66a-61a0ee111139"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Creates the init file for the application."
 }], "GuideText",
- CellID->1134126119]
+ CellID->1134126119,ExpressionUUID->"95208350-d0fb-45a7-b78c-691b86413270"]
 }, Open  ]]
 }, Open  ]],
 
@@ -235,18 +238,19 @@ Cell[TextData[ButtonBox["TUTORIALS",
      FrontEnd`SelectedNotebook[], After, 
      CellContents]}]& )]], "TutorialsSection",
  CellID->200144173,
- ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> True],
+ ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
+ True,ExpressionUUID->"328ff82b-5db4-45aa-a580-cd4b94aa570d"],
 
 Cell[TextData[ButtonBox["How to build a documented package",
  BaseStyle->"Link",
  ButtonData->
   "paclet:ApplicationMaker/tutorial/HowToBuildADocumentedPackage"]], \
 "Tutorials",
- CellID->863724409]
+ CellID->863724409,ExpressionUUID->"d4d0e457-a8f5-4b42-9090-7c750a2d375f"]
 }, Open  ]],
 
 Cell[" ", "FooterCell",
- CellID->1646851992]
+ CellID->1646851992,ExpressionUUID->"ef1212a5-9c5e-479d-ba6f-fe8285cff6d3"]
 },
 Saveable->False,
 WindowSize->{681, 684},
@@ -258,15 +262,14 @@ PageHeaders->{{None, None, None}, {None, None,
    Cell[
     TextData[{
       Cell[
-       TextData[{"ApplicationMaker Documentation "}], "PageHeader"], 
+       TextData[{""}], "PageHeader"], 
       Cell[
        TextData[{
          CounterBox["Page"]}], "PageNumber"]}], 
     CellMargins -> {{Inherited, -29}, {Inherited, Inherited}}]}},
 PageFooters->{{None, None, None}, {
    Cell[
-    TextData[{"Created by Manuel Lopez | July 12, 2011"}], "PageFooter"], 
-   None, None}},
+    TextData[{""}], "PageFooter"], None, None}},
 TaggingRules->{
  "ModificationHighlight" -> False, 
   "Metadata" -> {
@@ -282,8 +285,8 @@ of packages and their documentation.",
     "ApplicationMaker", "windowTitle" -> "ApplicationMaker", "type" -> 
     "Guide", "uri" -> "ApplicationMaker/guide/ApplicationMaker"}, 
   "SearchTextTranslated" -> "", "LinkTrails" -> ""},
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
-2011)",
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
   CharacterEncoding -> "UTF-8"]
 ]
@@ -298,60 +301,80 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[606, 21, 1456, 36, 47, "AnchorBarGrid",
+Cell[607, 21, 1751, 39, 55, "AnchorBarGrid", "ExpressionUUID" -> \
+"1d800eab-ba28-43ba-9b46-17db2d68b6ff",
  CellID->982124020],
 Cell[CellGroupData[{
-Cell[2087, 61, 58, 1, 65, "GuideTitle",
+Cell[2383, 64, 113, 1, 61, "GuideTitle", "ExpressionUUID" -> \
+"ae889bb0-0e59-454d-b7fb-83f03dfeb4db",
  CellID->999093298],
-Cell[2148, 64, 157, 4, 62, "GuideAbstract",
+Cell[2499, 67, 212, 4, 38, "GuideAbstract", "ExpressionUUID" -> \
+"178017b4-d945-460c-869c-fdced983ea88",
  CellID->586423593],
 Cell[CellGroupData[{
-Cell[2330, 72, 73, 1, 28, "GuideFunctionsSubsection",
+Cell[2736, 75, 128, 1, 37, "GuideFunctionsSubsection", "ExpressionUUID" -> \
+"778908bd-f9ea-4ff2-b412-ed87f22d688a",
  CellID->1218871468],
-Cell[2406, 75, 318, 10, 20, "GuideText",
+Cell[2867, 78, 428, 10, 27, "GuideText", "ExpressionUUID" -> \
+"61689369-e1d5-46ad-8bfe-b6b41046e1c5",
  CellID->203374175],
-Cell[2727, 87, 335, 9, 21, "GuideText",
+Cell[3298, 90, 445, 9, 27, "GuideText", "ExpressionUUID" -> \
+"616e7c19-0c39-4c37-87de-8b49a22cb9ba",
  CellID->1872187008],
-Cell[3065, 98, 296, 9, 21, "GuideText",
+Cell[3746, 101, 406, 9, 27, "GuideText", "ExpressionUUID" -> \
+"66a683ca-4a71-4164-9d3a-e6ee272f4596",
  CellID->916647612]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3398, 112, 73, 1, 28, "GuideFunctionsSubsection",
+Cell[4189, 115, 128, 1, 37, "GuideFunctionsSubsection", "ExpressionUUID" -> \
+"08fd3061-aefa-40ca-9da8-762fed20bd7f",
  CellID->48731306],
-Cell[3474, 115, 327, 9, 21, "GuideText",
+Cell[4320, 118, 437, 9, 27, "GuideText", "ExpressionUUID" -> \
+"19ada6c2-22e2-4560-b40a-a712118c9569",
  CellID->835790435],
-Cell[3804, 126, 335, 9, 21, "GuideText",
+Cell[4760, 129, 445, 9, 48, "GuideText", "ExpressionUUID" -> \
+"201e638a-be1f-4dce-b278-42a39670e534",
  CellID->439306018],
-Cell[4142, 137, 319, 9, 21, "GuideText",
+Cell[5208, 140, 429, 9, 27, "GuideText", "ExpressionUUID" -> \
+"4edc0797-4a0d-4c77-9baf-10764d1f2fef",
  CellID->367466140],
-Cell[4464, 148, 289, 9, 21, "GuideText",
+Cell[5640, 151, 399, 9, 27, "GuideText", "ExpressionUUID" -> \
+"e603f10e-5e6a-4892-bc4b-2004bfe00265",
  CellID->1987929855],
-Cell[4756, 159, 297, 9, 21, "GuideText",
+Cell[6042, 162, 407, 9, 27, "GuideText", "ExpressionUUID" -> \
+"2ab7deff-8a73-4e9e-a8c5-9953906bc63a",
  CellID->586492959],
-Cell[5056, 170, 331, 9, 21, "GuideText",
+Cell[6452, 173, 441, 9, 27, "GuideText", "ExpressionUUID" -> \
+"65ce2230-0454-49a5-9315-2757a9efed91",
  CellID->237222183],
-Cell[5390, 181, 312, 9, 21, "GuideText",
+Cell[6896, 184, 422, 9, 27, "GuideText", "ExpressionUUID" -> \
+"bfeb9928-6c5a-4720-ba2c-a17573bea463",
  CellID->1263580849]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5739, 195, 68, 1, 28, "GuideFunctionsSubsection",
+Cell[7355, 198, 123, 1, 37, "GuideFunctionsSubsection", "ExpressionUUID" -> \
+"9128909c-1dfb-4de8-a40e-656b51835640",
  CellID->537543960],
-Cell[5810, 198, 285, 9, 21, "GuideText",
+Cell[7481, 201, 395, 9, 27, "GuideText", "ExpressionUUID" -> \
+"20cb0ddb-285c-4434-af30-d1065fc8ffc5",
  CellID->37632791],
-Cell[6098, 209, 291, 9, 21, "GuideText",
+Cell[7879, 212, 401, 9, 27, "GuideText", "ExpressionUUID" -> \
+"95208350-d0fb-45a7-b78c-691b86413270",
  CellID->1134126119]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6438, 224, 494, 13, 45, "TutorialsSection",
+Cell[8329, 227, 551, 14, 73, "TutorialsSection", "ExpressionUUID" -> \
+"328ff82b-5db4-45aa-a580-cd4b94aa570d",
  CellID->200144173],
-Cell[6935, 239, 198, 5, 16, "Tutorials",
+Cell[8883, 243, 253, 5, 18, "Tutorials", "ExpressionUUID" -> \
+"d4d0e457-a8f5-4b42-9090-7c750a2d375f",
  CellID->863724409]
 }, Open  ]],
-Cell[7148, 247, 44, 1, 40, "FooterCell",
+Cell[9151, 251, 99, 1, 40, "FooterCell", "ExpressionUUID" -> \
+"ef1212a5-9c5e-479d-ba6f-fe8285cff6d3",
  CellID->1646851992]
 }
 ]
 *)
 
-(* End of internal cache information *)
