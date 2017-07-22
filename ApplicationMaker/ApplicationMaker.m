@@ -32,7 +32,7 @@
 				specified location for a new application. The DeployApplication
 				takes all the m files and documentation notebooks in the
 				application and puts them in an specified location for 
-				distribution. *)
+				distribution. *) 
 
 
 BeginPackage["ApplicationMaker`ApplicationMaker`"];

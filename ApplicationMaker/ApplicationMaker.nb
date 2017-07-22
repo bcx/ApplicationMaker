@@ -56,12 +56,8 @@ Cell[BoxData[
      "the", "\n", "\t\t\t\t", "application", " ", "and", " ", "puts", " ", 
      "them", " ", "in", " ", "an", " ", "specified", " ", "location", " ", 
      "for", " ", "\n", "\t\t\t\t", 
-     RowBox[{"distribution", "."}]}]}], " ", "*)"}]}]], "Code",
- CellChangeTimes->{{3.519262426879718*^9, 3.519262448169848*^9}, {
-  3.519262497687089*^9, 3.51926254251353*^9}, {3.5192625853585587`*^9, 
-  3.519262813906499*^9}, {3.519265619896352*^9, 
-  3.519265624995922*^9}},ExpressionUUID->"34a74633-3fbc-43ae-bfe8-\
-0dd311514fa6"],
+     RowBox[{"distribution", "."}]}]}], " ", "*)"}], 
+  " "}]], "Code",ExpressionUUID->"34a74633-3fbc-43ae-bfe8-0dd311514fa6"],
 
 Cell[BoxData[
  RowBox[{

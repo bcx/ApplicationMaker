@@ -30,7 +30,7 @@
 (* :Mathematica version: 8.0 for Mac OS X x86 (64-bit) (February 23, 2011) *)
 (* :Discussion: The function NewPackage creates a new notebook to help you 
 				write functions for the package. The function UpdateInit
-				updates the application init file. *)
+				updates the application init file. *) 
 
 
 BeginPackage["ApplicationMaker`PackageMaker`"];
