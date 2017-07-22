@@ -132,7 +132,7 @@ MakeDirectory["", appNameDir, main, sub];
 
 
 ChangeNotebookSettings[path_, index_,  header_, footer_]:= Module[{nb, newpath, winTitle},
-nb=NotebookOpen[path];
+nb=NotebookOpen[path,Visible->False];
 winTitle =Options[nb, WindowTitle][[1]][[2]];
 newpath = FileNameJoin[{DirectoryName[path], StringDrop[FileNameTake[path], 3]}];
 NotebookSave[nb, newpath];
