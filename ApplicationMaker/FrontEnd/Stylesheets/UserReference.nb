@@ -2094,7 +2094,7 @@ Cell[StyleData["Notes", StyleDefinitions -> None],
  MenuSortingValue->None,
  MenuCommandKey->"8",
  FontFamily->"Verdana",
- FontSize->15,
+ FontSize->12,
  FontWeight->"Plain",ExpressionUUID->"0285a03b-3049-4102-b048-494a584fe3e5"],
 
 Cell[CellGroupData[{
