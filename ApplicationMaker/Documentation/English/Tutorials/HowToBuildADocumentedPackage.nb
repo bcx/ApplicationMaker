@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    996692,      17038]
-NotebookOptionsPosition[    980640,      16613]
-NotebookOutlinePosition[    982990,      16678]
-CellTagsIndexPosition[    982858,      16672]
+NotebookDataLength[    995074,      16990]
+NotebookOptionsPosition[    979026,      16564]
+NotebookOutlinePosition[    981372,      16630]
+CellTagsIndexPosition[    981240,      16624]
 WindowTitle->HowToBuildADocumentedPackage - ApplicationMaker
 WindowFrame->Normal*)
 
@@ -21,7 +21,7 @@ WindowFrame->Normal*)
 Notebook[{
 Cell[BoxData[GridBox[{
    {Cell["APPLICATIONMAKER TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "4315cadd-9d88-4afb-91bb-777799d1e731"], Cell[TextData[{
+     "9fc95072-d20b-45f7-b4f1-59a7bd9b2df9"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"More About \[RightGuillemet]\"\>",
@@ -31,7 +31,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "76f1a4ed-3e3d-4d71-b5e2-a4ec325220de"],
+      "0dfaa9f4-2517-4125-b8df-3623ae194682"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -53,15 +53,15 @@ to-mathematicas-documentation-center"], None}]}],
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "dea31cd2-1530-4206-ac5d-4dc2865fbd16"]
-    }], "AnchorBar",ExpressionUUID->"d9611d3e-69af-4ba9-bb7e-a917eed58c50"]}
+      "9180d21c-08ab-452e-8765-77c27736f3ef"]
+    }], "AnchorBar",ExpressionUUID->"d6acebfb-b83f-49ce-8433-0bbb67b1e8c2"]}
   }]], "AnchorBarGrid",
- CellID->1033750982,ExpressionUUID->"545be89a-bae8-4433-8780-f322ab8b7f03"],
+ CellID->1033750982,ExpressionUUID->"52c34f98-350f-4476-a4cf-9c8b999ab011"],
 
 Cell[CellGroupData[{
 
 Cell["Making a documented package", "Title",
- CellID->1110050244,ExpressionUUID->"97bf4fc0-c0b5-42d5-bf96-2a4ea8c68435"],
+ CellID->1110050244,ExpressionUUID->"cfa71b10-16c7-4f14-b3ef-550e089654b1"],
 
 Cell[TextData[{
  "This tutorial will show you how to create documented packages using the \
@@ -70,12 +70,12 @@ plain installation of ",
   FontSlant->"Italic"],
  " 8 and the ApplicationMaker package."
 }], "Text",
- CellID->1424009419,ExpressionUUID->"db567119-5caf-4a6e-b06b-c792decf197f"],
+ CellID->1424009419,ExpressionUUID->"d8ebb0bb-8c2d-4f6c-9168-66e1d6697073"],
 
 Cell[CellGroupData[{
 
 Cell["SimpleArithmetic Application", "Section",
- CellID->1768542965,ExpressionUUID->"312d2889-e371-4d4e-9c0f-98884b7583c8"],
+ CellID->1768542965,ExpressionUUID->"eda7f9e7-aab2-440d-a29f-07aa043f18c0"],
 
 Cell[TextData[{
  "Lets suppose that we have created a collection of functions that we would \
@@ -88,7 +88,7 @@ like to keep using in future projects: ",
  " and ",
  StyleBox["DotThree.", "Input"]
 }], "Text",
- CellID->1447167468,ExpressionUUID->"8baaa528-c028-414b-8322-bbae8c5e5c44"],
+ CellID->1447167468,ExpressionUUID->"dd4fb1d5-6f65-4e4e-9051-f30b89a9d99d"],
 
 Cell["\<\
 (* :Notebook: myUsefulFunctions.nb *)
@@ -109,7 +109,7 @@ DotTwo[a_, b_] := a*b
 DotThree[args___] := (Message[DotThree::argerr];$Failed)
 DotThree[a_, b_, c_] := a*b*c\
 \>", "Program",
- CellID->1993531484,ExpressionUUID->"15d20a47-f136-4393-b4a9-8a64909be3e4"],
+ CellID->1993531484,ExpressionUUID->"9a07cbd9-f218-46e4-97b7-6d690a7e0a8e"],
 
 Cell[TextData[{
  "These functions are very simple but they are an example of an application \
@@ -132,13 +132,13 @@ packages/6633769#6633769"], None},
  ". Even if you still don't understand it, the ApplicationMaker package will \
 try to simplify this process. "
 }], "Text",
- CellID->1746905603,ExpressionUUID->"b5081df8-3634-446e-9b9b-586ecb28f697"]
+ CellID->1746905603,ExpressionUUID->"1925dae6-2068-445c-829d-47ae732dcb13"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["NewApplication and NewPackage", "Section",
- CellID->243791094,ExpressionUUID->"6dd80774-b700-4d6c-889a-235149200d73"],
+ CellID->243791094,ExpressionUUID->"3333c598-5e9c-4083-929b-c76fca1376bf"],
 
 Cell[TextData[{
  "The ApplicationMaker package provides the functions ",
@@ -150,22 +150,20 @@ Cell[TextData[{
  "/Applications. To start building the package first we need to load \
 ApplicationMaker."
 }], "Text",
- CellID->2145602029,ExpressionUUID->"df67b6c2-1d37-40ef-8831-6ea8d67a195b"],
+ CellID->2145602029,ExpressionUUID->"582ac087-93f5-4d42-82e6-0cceaa10c574"],
 
 Cell[BoxData[
  RowBox[{"<<", "ApplicationMaker`"}]], "Input",
- CellLabel->"In[1]:=",
- CellID->587900979,ExpressionUUID->"bd263da9-f061-47ee-8a5b-450543cf3034"],
+ CellID->587900979,ExpressionUUID->"f775bd33-866a-4cd6-8e9e-f781a26302e6"],
 
 Cell["Now we can go ahead and create the Application.", "Text",
- CellID->279494206,ExpressionUUID->"9a58589f-9a8f-4cfa-9a3e-f29a76103692"],
+ CellID->279494206,ExpressionUUID->"63c02b78-46ee-4f86-bb66-69161ec0e09c"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"NewApplication", "[", "\"\<SimpleArithmetic\>\"", "]"}]], "Input",
- CellLabel->"In[2]:=",
- CellID->912384253,ExpressionUUID->"db9b79ce-a1c6-4498-aa1a-d099617300b3"],
+ CellID->912384253,ExpressionUUID->"d1040430-726b-4ae3-b607-ae1b54b3ead4"],
 
 Cell[CellGroupData[{
 
@@ -189,8 +187,7 @@ SimpleArithmetic\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic", 
     "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->1408900591,ExpressionUUID->"cb9b7d25-73fc-41e6-91da-c82e82a0ef1a"],
+ CellID->1408900591,ExpressionUUID->"76b8ac67-5efa-4647-8477-54ed3ce45d3c"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -212,8 +209,7 @@ SimpleArithmetic/Documentation\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->1237541115,ExpressionUUID->"bf89dcc7-9097-45b1-8d87-99a2fc4faf72"],
+ CellID->1237541115,ExpressionUUID->"bc84e041-bd42-4925-ad56-ca6327ac99b5"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -235,8 +231,7 @@ SimpleArithmetic/Kernel\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Kernel", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->974398610,ExpressionUUID->"1d1863f3-d685-4918-8926-1ebe7014f30f"],
+ CellID->974398610,ExpressionUUID->"1272a8c4-a2a9-4ff4-be93-6855278cfa1d"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -258,8 +253,7 @@ SimpleArithmetic/Documentation/English\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->7146248,ExpressionUUID->"cd6b4f73-d96a-4fc5-9da9-302ed410f500"],
+ CellID->7146248,ExpressionUUID->"ab4bdb58-d5cf-4ef2-b8f3-a929bbaaefa6"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -281,8 +275,7 @@ SimpleArithmetic/Documentation/English/Guides\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/Guides", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->1995389551,ExpressionUUID->"431e58a3-4a9c-4735-a87b-714cc19d3329"],
+ CellID->1995389551,ExpressionUUID->"abdbd7b4-e290-4241-b348-4eb1dda37f83"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -304,8 +297,7 @@ SimpleArithmetic/Documentation/English/ReferencePages\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/ReferencePages", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->1407552105,ExpressionUUID->"b00c950a-7475-4661-b6e1-b29df6e6a421"],
+ CellID->1407552105,ExpressionUUID->"0bc27b6a-5f09-47b9-975a-33bb11667e67"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -327,8 +319,7 @@ SimpleArithmetic/Documentation/English/Tutorials\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/Tutorials", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->48373383,ExpressionUUID->"7a781497-1a6a-4aed-87f4-19575f2921e2"],
+ CellID->48373383,ExpressionUUID->"b267e0b0-5c0b-453a-a4fa-bb974de5327d"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -350,8 +341,7 @@ SimpleArithmetic/Documentation/English/ReferencePages/Symbols\"\>", "MSG",
    Style["/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/ReferencePages/Symbols", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->1262629515,ExpressionUUID->"91ddf26f-72a1-493a-b1ac-648ede5f2465"]
+ CellID->1262629515,ExpressionUUID->"42647c8a-a230-47e4-9cfb-46bed4b0eb5a"]
 }, Open  ]]
 }, Open  ]],
 
@@ -365,14 +355,13 @@ creation of the ",
  StyleBox["Addition", "Input"],
  " package."
 }], "Text",
- CellID->1728342598,ExpressionUUID->"ddf89f81-1f23-4fb8-84a7-aa65baa07fbf"],
+ CellID->1728342598,ExpressionUUID->"0ef2cafc-5430-44ce-bcf5-311e3f500b99"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"NewPackage", "[", "\"\<Addition\>\"", "]"}]], "Input",
- CellLabel->"In[3]:=",
- CellID->1390235264,ExpressionUUID->"17a28937-1489-495f-84f9-ef173b8258d5"],
+ CellID->1390235264,ExpressionUUID->"4bf7e9d4-db53-4bbe-b7c0-c5177f0fbf4c"],
 
 Cell[BoxData[
  RowBox[{
@@ -380,12 +369,10 @@ Cell[BoxData[
    RowBox[{"NewPackage", "::", "argerr"}], "MessageName"], ":", 
   " ", "\<\"Strings specifying the package name and the application it \
 belongs to were expected.\"\>"}]], "Message", "MSG",
- CellLabel->"During evaluation of In[3]:=",
- CellID->1062002688,ExpressionUUID->"115f34d7-19d8-4d31-a12a-bc8ffea3c89e"],
+ CellID->1062002688,ExpressionUUID->"fa59d6c9-d1e9-45e9-aa36-f46cbe35d54d"],
 
 Cell[BoxData["$Failed"], "Output",
- CellLabel->"Out[3]=",
- CellID->1342586999,ExpressionUUID->"67351d7a-36e9-4929-bebd-8a7a3dea224f"]
+ CellID->1342586999,ExpressionUUID->"48e0c317-0e0d-433e-8fc0-bed329dc293c"]
 }, Open  ]],
 
 Cell["\<\
@@ -396,7 +383,7 @@ we possibly did wrong. To make a package we need to enter the name of the \
 package and the application it belongs to. When we do this, a notebook should \
 pop out in the screen as the next screenshot shows\
 \>", "Text",
- CellID->1249013164,ExpressionUUID->"df47b4fd-a763-4258-91fc-7b4e1eff3697"],
+ CellID->1249013164,ExpressionUUID->"bf73bb99-7ded-48cb-b0f9-c4dce03ec5d7"],
 
 Cell[CellGroupData[{
 
@@ -404,8 +391,7 @@ Cell[BoxData[
  RowBox[{"NewPackage", "[", 
   RowBox[{"\"\<Addition\>\"", ",", " ", "\"\<SimpleArithmetic\>\""}], 
   "]"}]], "Input",
- CellLabel->"In[4]:=",
- CellID->511597923,ExpressionUUID->"2187426b-6323-4c8b-a7f7-09610d83131d"],
+ CellID->511597923,ExpressionUUID->"d8aa051f-52a5-48d4-9b20-abced09077d5"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -449,8 +435,7 @@ Addition.nb", "Tooltip"]& ]}
    FrontEndObject[
     LinkObject["iw2_shm", 1, 1]], 78],
   Editable->False]], "Output",
- CellLabel->"Out[4]=",
- CellID->2049252920,ExpressionUUID->"c3197e2c-0369-4b99-9822-da87075f16cc"]
+ CellID->2049252920,ExpressionUUID->"34688678-cfbf-43ec-9e58-8cd4e3bcb092"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -2055,7 +2040,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQy/w8G7cr8
   ImageSize->Magnification[1],
   ImageSizeRaw->{740, 669},
   PlotRange->{{0, 740}, {0, 669}}]], "Text",
- CellID->451095854,ExpressionUUID->"d4d61aa1-d57a-45bb-96f5-fd409de3e8fc"],
+ CellID->451095854,ExpressionUUID->"97d672dd-5dbd-4038-89d7-44e78674ea8b"],
 
 Cell[TextData[{
  "This notebook file has been created in ",
@@ -2064,7 +2049,7 @@ Cell[TextData[{
 file and add some comments at the top. Here is how my file looks like after I \
 completed my edits."
 }], "Text",
- CellID->950744268,ExpressionUUID->"6aef04c5-4df5-4431-a078-4a5b8b80e889"],
+ CellID->950744268,ExpressionUUID->"7b68dc08-8fff-4e17-acc5-4034d4f7673b"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -4159,7 +4144,7 @@ AAAAAAAAAMCJy/8DLCvXOw==
   ImageSize->Magnification[1],
   ImageSizeRaw->{733, 738},
   PlotRange->{{0, 733}, {0, 738}}]], "Text",
- CellID->1880578596,ExpressionUUID->"649dfa46-545f-4eeb-b94b-6d43b9c3683e"],
+ CellID->1880578596,ExpressionUUID->"5c229593-9014-42ea-9257-df2302063445"],
 
 Cell[TextData[{
  "We can do something similar with the package ",
@@ -4167,14 +4152,13 @@ Cell[TextData[{
  ". Once you are done with the modifications to all the packages you can test \
 them by updating the application init file."
 }], "Text",
- CellID->220146426,ExpressionUUID->"cb2f88fb-7ab0-4090-a0af-7dc0f7d54ba0"],
+ CellID->220146426,ExpressionUUID->"3bece716-50ac-4932-92fd-8b5ce67d0127"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "UpdateInit"}]], "Input",
- CellLabel->"In[5]:=",
- CellID->2034141648,ExpressionUUID->"d225297b-3934-4b28-a96e-9ba298be8004"],
+ CellID->2034141648,ExpressionUUID->"39a2a3f4-0475-4316-8b8a-3d5745586423"],
 
 Cell[BoxData[
  StyleBox["\<\"UpdateInit[\\!\\(\\*\\nStyleBox[\\\"appName\\\", \
@@ -4182,20 +4166,18 @@ Cell[BoxData[
 \\!\\(\\*\\nStyleBox[\\\"appName\\\", \\\"TI\\\"]\\).\"\>", "MSG"]], "Print", \
 "PrintUsage",
  CellTags->"Info3519338772-7445443",
- CellID->2026501343,ExpressionUUID->"2a557e05-27b2-4a6d-948e-58b51c0fcca1"]
+ CellID->2026501343,ExpressionUUID->"2fbe6ee9-a57c-446e-b5d2-a684c381cab5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"UpdateInit", "[", "\"\<SimpleArithmetic\>\"", "]"}]], "Input",
- CellLabel->"In[6]:=",
- CellID->317430381,ExpressionUUID->"0da40656-e325-42bb-9428-2978abda0713"],
+ CellID->317430381,ExpressionUUID->"7273a9f3-1eaa-4566-8f05-82b566aa6c59"],
 
 Cell[BoxData["\<\"/Users/jmlopez/Library/Mathematica/Applications/\
 SimpleArithmetic/Kernel/Init.m\"\>"], "Output",
- CellLabel->"Out[6]=",
- CellID->1228140770,ExpressionUUID->"b1efe8ce-a432-4665-99dc-8ce4bd00a0d2"]
+ CellID->1228140770,ExpressionUUID->"26a662e7-8222-4249-8706-8cc18f3b6f75"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -4206,31 +4188,27 @@ packages to your application at a later time. For now we can test the ",
  StyleBox["AddTwo", "Input"],
  " function."
 }], "Text",
- CellID->442773639,ExpressionUUID->"4237a0c6-a289-427d-8fa7-e95bfeb881d6"],
+ CellID->442773639,ExpressionUUID->"0a21c7c8-9d10-4a2e-b4df-1ac33ca74947"],
 
 Cell[BoxData[
  RowBox[{"<<", "SimpleArithmetic`"}]], "Input",
- CellLabel->"In[7]:=",
- CellID->665713818,ExpressionUUID->"45249f13-f034-4b68-be1d-e004f7869272"],
+ CellID->665713818,ExpressionUUID->"7b176174-1748-4150-b548-74015172b273"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"AddTwo", "[", "]"}]], "Input",
- CellLabel->"In[8]:=",
- CellID->262338256,ExpressionUUID->"158b529c-1b6d-47e3-9d7a-4b6f1b55acce"],
+ CellID->262338256,ExpressionUUID->"012ef107-6252-44bc-a487-fb23205e43d8"],
 
 Cell[BoxData[
  RowBox[{
   StyleBox[
    RowBox[{"AddTwo", "::", "argerr"}], "MessageName"], ":", 
   " ", "\<\"Two numbers were expected.\"\>"}]], "Message", "MSG",
- CellLabel->"During evaluation of In[8]:=",
- CellID->388837538,ExpressionUUID->"bb8340f2-c45c-4dc7-be7f-3f424fc2a20b"],
+ CellID->388837538,ExpressionUUID->"10f52cc2-2db7-41d5-8036-a8bd6e0ba02a"],
 
 Cell[BoxData["$Failed"], "Output",
- CellLabel->"Out[8]=",
- CellID->399763345,ExpressionUUID->"0ea39376-ea14-4561-919f-d6fef8d85893"]
+ CellID->399763345,ExpressionUUID->"42779a22-36e8-434b-98ae-01becc0d65d7"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4238,16 +4216,14 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"AddTwo", "[", 
   RowBox[{"1", ",", " ", "2"}], "]"}]], "Input",
- CellLabel->"In[9]:=",
- CellID->2017723473,ExpressionUUID->"13e1efb9-5352-4cbb-af86-8981fe82bd7a"],
+ CellID->2017723473,ExpressionUUID->"a0864d7a-bce7-4cb3-a50f-4589fe3637df"],
 
 Cell[BoxData["3"], "Output",
- CellLabel->"Out[9]=",
- CellID->1493691599,ExpressionUUID->"452d7b05-97f2-4ef8-8a13-80290173d24f"]
+ CellID->1493691599,ExpressionUUID->"f78b7dc8-61c5-4eb3-a10d-69d0ae64511d"]
 }, Open  ]],
 
 Cell["To complete the application:", "Text",
- CellID->390870963,ExpressionUUID->"1b4ab6a3-3cee-403d-942d-8f51025059c8"],
+ CellID->390870963,ExpressionUUID->"4e813950-8d7a-46f1-9b64-3b1fa5674418"],
 
 Cell[CellGroupData[{
 
@@ -4255,8 +4231,7 @@ Cell[BoxData[
  RowBox[{"NewPackage", "[", 
   RowBox[{"\"\<Multiplication\>\"", ",", " ", "\"\<SimpleArithmetic\>\""}], 
   "]"}]], "Input",
- CellLabel->"In[10]:=",
- CellID->215798968,ExpressionUUID->"25f49ee9-f3c3-4c5e-92da-88242f821eec"],
+ CellID->215798968,ExpressionUUID->"4ce35888-bfcd-4f42-b921-e8880841f944"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4300,8 +4275,7 @@ Multiplication.nb", "Tooltip"]& ]}
    FrontEndObject[
     LinkObject["iw2_shm", 1, 1]], 121],
   Editable->False]], "Output",
- CellLabel->"Out[10]=",
- CellID->1980859040,ExpressionUUID->"c2041d09-11fd-476f-bb20-b3b4a65b28ad"]
+ CellID->1980859040,ExpressionUUID->"528dfed0-a28a-4a93-b145-9e674e48fc7c"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -6413,19 +6387,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWNr8P0njtg4=
   ImageSize->Magnification[1],
   ImageSizeRaw->{732, 742},
   PlotRange->{{0, 732}, {0, 742}}]], "Text",
- CellID->2006389486,ExpressionUUID->"1da1a8b2-3916-4a7d-b591-85f91ace0b2b"],
+ CellID->2006389486,ExpressionUUID->"70b2439c-ccf0-48f1-8d4f-a35aea40b10f"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"UpdateInit", "[", "\"\<SimpleArithmetic\>\"", "]"}]], "Input",
- CellLabel->"In[11]:=",
- CellID->1599866008,ExpressionUUID->"99fbf0bb-f504-4486-b4b8-274ecbcecfe0"],
+ CellID->1599866008,ExpressionUUID->"efca002c-22b1-4639-a798-f49a4826564f"],
 
 Cell[BoxData["\<\"/Users/jmlopez/Library/Mathematica/Applications/\
 SimpleArithmetic/Kernel/Init.m\"\>"], "Output",
- CellLabel->"Out[11]=",
- CellID->305252369,ExpressionUUID->"836b6c78-58c4-4d0a-b9b8-a798637a1602"]
+ CellID->305252369,ExpressionUUID->"f6877440-ac36-455d-99c9-8714ee990e6b"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -6435,33 +6407,31 @@ functions by using ",
  " in any notebook and the functions will be available. Now it is time to \
 write the documentation."
 }], "Text",
- CellID->38133100,ExpressionUUID->"0c566895-ed5e-41f5-8daf-8cb4a2ae710e"]
+ CellID->38133100,ExpressionUUID->"b71f33b1-52ea-47b5-ae8e-65644ade804d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["ApplicationMaker`DocumentationMaker`", "Section",
- CellID->952884894,ExpressionUUID->"2e8a79cd-822f-4524-a3e1-2f9948eb553d"],
+ CellID->952884894,ExpressionUUID->"3a281737-1d15-4040-86f6-143e26a83c13"],
 
 Cell[TextData[{
  "To create reference pages for each symbol in your application you can call ",
  StyleBox["CreateReferencePages", "Input"],
  "."
 }], "Text",
- CellID->1350857779,ExpressionUUID->"43bcfd82-be10-41c7-aa78-9bdd658d1637"],
+ CellID->1350857779,ExpressionUUID->"2b11312c-6721-4c1a-b034-88c23be33047"],
 
 Cell[BoxData[
  RowBox[{"<<", "ApplicationMaker`"}]], "Input",
- CellLabel->"In[1]:=",
- CellID->669575569,ExpressionUUID->"2c250eff-b6d4-4dfd-89f5-89293e03b8b1"],
+ CellID->669575569,ExpressionUUID->"4a9f0273-9a84-47b6-bb71-477848637aa8"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"CreateReferencePages", "[", "\"\<SimpleArithmetic\>\"", 
   "]"}]], "Input",
- CellLabel->"In[2]:=",
- CellID->1660881281,ExpressionUUID->"b0806aa3-f855-444a-8e10-d24e88b31348"],
+ CellID->1660881281,ExpressionUUID->"aba0d9ce-52de-4c58-9266-b267af1b8a29"],
 
 Cell[CellGroupData[{
 
@@ -6476,8 +6446,7 @@ Cell[BoxData[
    Style["Building reference pages for: ", "MSG"], 
    Style["Addition", "Input"]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->1111782416,ExpressionUUID->"887faa88-3b58-4f05-bb74-541371d30e99"],
+ CellID->1111782416,ExpressionUUID->"da76068a-b14d-4377-bb0d-ce3c0df56265"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -6490,8 +6459,7 @@ Cell[BoxData[
    Style["Building reference pages for: ", "MSG"], 
    Style["Multiplication", "Input"]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->1538381889,ExpressionUUID->"cee39dd3-500b-49ce-a650-fcc385306f77"]
+ CellID->1538381889,ExpressionUUID->"75601f9b-31be-4fbe-ab83-b1fabf4bc5f6"]
 }, Open  ]]
 }, Open  ]],
 
@@ -6507,15 +6475,14 @@ you will see a link so that you can open them. Note that if you on the links \
 in this tutorial you will not be able to access those pages because those \
 hyperlinks lead to some file in my machine. \
 \>", "Text",
- CellID->1760536235,ExpressionUUID->"f9cc7ff1-9dcc-4872-b72b-d0d0d36f1350"],
+ CellID->1760536235,ExpressionUUID->"2cd3c597-0666-4a61-b9a7-4d340eace8c1"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"CreateReferencePages", "[", "\"\<SimpleArithmetic\>\"", 
   "]"}]], "Input",
- CellLabel->"In[3]:=",
- CellID->1302813279,ExpressionUUID->"6e99e9cf-a709-4398-b1f6-7d583a1d52a9"],
+ CellID->1302813279,ExpressionUUID->"9b4bde58-e41d-4d1c-a78f-44ca08738ceb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -6528,8 +6495,7 @@ Cell[BoxData[
    Style["Building reference pages for: ", "MSG"], 
    Style["Addition", "Input"]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[3]:=",
- CellID->639515341,ExpressionUUID->"de61c4d6-5592-4554-8a16-a37158c950c6"],
+ CellID->639515341,ExpressionUUID->"07e88727-1691-4203-8977-fd51b1ffc98b"],
 
 Cell[BoxData[
  RowBox[{
@@ -6553,8 +6519,7 @@ Function[Annotation[Slot[1], \
 \\\"/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/ReferencePages/Symbols/___AddThree.nb\\\", \
 \\\"Hyperlink\\\"]]]\\)\[NoBreak] to make changes.\"\>"}]], "Message", "MSG",
- CellLabel->"During evaluation of In[3]:=",
- CellID->178682952,ExpressionUUID->"1304e13f-1db5-4756-a83d-b4d3633fada1"],
+ CellID->178682952,ExpressionUUID->"d6b90f74-af7d-43c0-b4b4-1331fd4d6b3c"],
 
 Cell[BoxData[
  RowBox[{
@@ -6578,8 +6543,7 @@ Function[Annotation[Slot[1], \
 \\\"/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/ReferencePages/Symbols/___AddTwo.nb\\\", \
 \\\"Hyperlink\\\"]]]\\)\[NoBreak] to make changes.\"\>"}]], "Message", "MSG",
- CellLabel->"During evaluation of In[3]:=",
- CellID->942235758,ExpressionUUID->"da8429ec-af78-4496-86e2-ec3fca2d7b5b"],
+ CellID->942235758,ExpressionUUID->"f7038afb-a21b-4a07-90fc-ad43e0aaeecb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -6592,8 +6556,7 @@ Cell[BoxData[
    Style["Building reference pages for: ", "MSG"], 
    Style["Multiplication", "Input"]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[3]:=",
- CellID->611971728,ExpressionUUID->"8a2f6e40-3bf8-4796-acbd-7a1bc21bcb73"],
+ CellID->611971728,ExpressionUUID->"91a42cda-cb51-4049-844d-b5f1d243b469"],
 
 Cell[BoxData[
  RowBox[{
@@ -6617,8 +6580,7 @@ Function[Annotation[Slot[1], \
 \\\"/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/ReferencePages/Symbols/___DotThree.nb\\\", \
 \\\"Hyperlink\\\"]]]\\)\[NoBreak] to make changes.\"\>"}]], "Message", "MSG",
- CellLabel->"During evaluation of In[3]:=",
- CellID->1109647013,ExpressionUUID->"e17fb794-7edc-432b-901f-d147592156fe"],
+ CellID->1109647013,ExpressionUUID->"38064ccb-bd00-4ed3-9ce1-8af58c3cb34d"],
 
 Cell[BoxData[
  RowBox[{
@@ -6642,12 +6604,11 @@ Function[Annotation[Slot[1], \
 \\\"/Users/jmlopez/Library/Mathematica/Applications/SimpleArithmetic/\
 Documentation/English/ReferencePages/Symbols/___DotTwo.nb\\\", \
 \\\"Hyperlink\\\"]]]\\)\[NoBreak] to make changes.\"\>"}]], "Message", "MSG",
- CellLabel->"During evaluation of In[3]:=",
- CellID->1089356943,ExpressionUUID->"75927262-b432-4fde-9919-690213bf196f"]
+ CellID->1089356943,ExpressionUUID->"333b2128-6920-4a8e-84f9-b266902a5250"]
 }, Open  ]],
 
 Cell["Here is a screenshot of the template reference page created", "Text",
- CellID->1676371313,ExpressionUUID->"2440eb1a-41a2-40db-8ef5-e42a8efb07b0"],
+ CellID->1676371313,ExpressionUUID->"b85da28e-3e52-4b42-94a1-100c6974721a"],
 
 Cell[TextData[Cell[BoxData[
  GraphicsBox[
@@ -8307,9 +8268,9 @@ hBBCCCGEEEIIIYQQQgghhJDhy/8HtRL7Sg==
   ImageSize->Magnification[1],
   ImageSizeRaw->{820, 754},
   PlotRange->{{0, 820}, {0, 
-   754}}]], "Input",ExpressionUUID->"d1240143-71ed-4daf-8ae4-0c291ed2bce5"]], \
+   754}}]], "Input",ExpressionUUID->"df088b61-b540-40fe-ac0f-b03f723fb4a4"]], \
 "Text",
- CellID->1934692598,ExpressionUUID->"ea0fcf4d-60ac-44b9-95ed-1f27144f7038"],
+ CellID->1934692598,ExpressionUUID->"c62e0a55-049e-4e54-9549-4e4f300e1b44"],
 
 Cell[TextData[{
  "This file has the same look as the reference pages for ",
@@ -8322,10 +8283,10 @@ Cell>ShowExpression or by pressing command+shift+E on a Mac. This next \
 screenshot shows you the code for the See Also section before and after the \
 modication."
 }], "Text",
- CellID->1328595359,ExpressionUUID->"cacb8743-481b-45f5-a71e-81258059503d"],
+ CellID->1328595359,ExpressionUUID->"1fc37046-60c1-41b8-a6cd-49d9d94800af"],
 
 Cell["Before:", "Text",
- CellID->1847127773,ExpressionUUID->"b504aafb-e89b-4467-b294-be8c058f765b"],
+ CellID->1847127773,ExpressionUUID->"8c95aad0-c6fd-49a1-a2e3-f20f0ccfb6c4"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -8929,10 +8890,10 @@ AAAAAAAAAAAAAAAAAAAAAAA8x/8B4BMgYQ==
   ImageSize->Magnification[1],
   ImageSizeRaw->{720, 285},
   PlotRange->{{0, 720}, {0, 285}}]], "Text",
- CellID->167237207,ExpressionUUID->"19ede538-ac85-4d7b-90a9-93ade6fae1aa"],
+ CellID->167237207,ExpressionUUID->"f37d8807-01fc-4e59-81c4-12ab0752117e"],
 
 Cell["After :", "Text",
- CellID->652879779,ExpressionUUID->"fd051772-dec3-449c-889c-abf78044d1d1"],
+ CellID->652879779,ExpressionUUID->"49414812-8354-469e-aa25-9c3971c798ae"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -9523,7 +9484,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgE/i/49X9Vk=
   ImageSize->Magnification[1],
   ImageSizeRaw->{721, 277},
   PlotRange->{{0, 721}, {0, 277}}]], "Text",
- CellID->1456493130,ExpressionUUID->"901b6792-1791-4426-b329-19a9f146e310"],
+ CellID->1456493130,ExpressionUUID->"c52cb44a-a306-40d2-bdf5-3847b26b9377"],
 
 Cell[TextData[{
  "If there are some cells that in other reference pages that you like then \
@@ -9545,7 +9506,7 @@ italic which you can change to by simply entering the style \"TI\": ",
  " have been changed to that style.\nHere is the screenshot of the finished \
 document."
 }], "Text",
- CellID->113943757,ExpressionUUID->"8afb05ec-470c-42a4-b5fe-4671dcf84b3d"],
+ CellID->113943757,ExpressionUUID->"ed506c81-195e-4394-8282-b51438306d7f"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -10619,7 +10580,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAON/4Po8t3TQ==
   ImageSize->Magnification[1],
   ImageSizeRaw->{614, 698},
   PlotRange->{{0, 614}, {0, 698}}]], "Text",
- CellID->1644794422,ExpressionUUID->"2e05dc8b-2701-444b-87b5-777d60d3d761"],
+ CellID->1644794422,ExpressionUUID->"ed8566e7-ff33-482d-8419-0172da77efe3"],
 
 Cell["\<\
 There is one last thing we need to do to the reference page: edit the \
@@ -10629,7 +10590,7 @@ ApplicationMaker package fills this for you by default but you might want to \
 add or modify a few things. See the next screenshots to see how this is done.\
 \
 \>", "Text",
- CellID->1368491510,ExpressionUUID->"58460208-b07e-4220-ba2f-bf507d5f34ab"],
+ CellID->1368491510,ExpressionUUID->"f9c9d959-d18c-459f-b5ec-44d6fa8f18fd"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -12365,7 +12326,7 @@ NQ==
   ImageSize->Magnification[1],
   ImageSizeRaw->{614, 698},
   PlotRange->{{0, 614}, {0, 698}}]], "Text",
- CellID->1130649531,ExpressionUUID->"72e6f5a7-44a0-42d9-ae01-9dea2fb07bdf"],
+ CellID->1130649531,ExpressionUUID->"2e49ddad-9380-4fc5-a125-f8bdb8383c4a"],
 
 Cell[TextData[{
  "At the top of the package I loaded the ApplicationMaker package and then I \
@@ -12374,7 +12335,7 @@ used the function ",
  ". This function generates the code necessary so that I can modify the \
 specified option. Notice the changes I make:"
 }], "Text",
- CellID->1891358861,ExpressionUUID->"6a0bde3d-0da8-4cae-b605-f885f4085f2e"],
+ CellID->1891358861,ExpressionUUID->"3046e83a-a06d-49c5-b5d0-70698868cc57"],
 
 Cell[TextData[Cell[BoxData[
  GraphicsBox[
@@ -14116,9 +14077,9 @@ AAAAAAAAAAAAAABcbfx/CBW/tQ==
   ImageSize->Magnification[1],
   ImageSizeRaw->{614, 698},
   PlotRange->{{0, 614}, {0, 
-   698}}]], "Input",ExpressionUUID->"89477190-f6ea-44a0-8f90-3bb27c19b2ce"]], \
+   698}}]], "Input",ExpressionUUID->"2b0a58d9-d590-40ef-8eff-64c424dcfc3d"]], \
 "Text",
- CellID->1015433933,ExpressionUUID->"25e97d88-d4ef-432c-a3f9-6b5cef7113d8"],
+ CellID->1015433933,ExpressionUUID->"7395ef83-b431-4d2c-93bf-a66657a19f66"],
 
 Cell["\<\
 You should add more keywords so that you increase the chance of your function \
@@ -14131,7 +14092,7 @@ cell and delete the cells you created so that the notebook can return to its \
 original state. Do not forget to save the notebook so that these changes can \
 take effect.\
 \>", "Text",
- CellID->345569222,ExpressionUUID->"8ee70986-5236-4ea6-bc1d-a47eb9907389"],
+ CellID->345569222,ExpressionUUID->"d945a81c-56f0-4e5c-8d33-8b477eaf0d6a"],
 
 Cell[TextData[{
  "To create tutorials and guide pages you can use the functions ",
@@ -14143,13 +14104,13 @@ functionality as the reference pages. This tutorial was created using the ",
  StyleBox["NewTutorial", "Input"],
  " function to generate its template."
 }], "Text",
- CellID->683118128,ExpressionUUID->"68a12a41-3ac5-4864-8404-0c4d2e25755a"]
+ CellID->683118128,ExpressionUUID->"18a2cde7-cb84-49d4-937a-58bc4ba81085"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Build and Deploy the application", "Section",
- CellID->686949200,ExpressionUUID->"ebffd411-cef9-40fb-a5eb-2377f6140295"],
+ CellID->686949200,ExpressionUUID->"cfbe0b34-90c3-447f-b6f4-b1316a96b785"],
 
 Cell["\<\
 You can build the application at any time. By using BuildApplication you \
@@ -14159,20 +14120,18 @@ pages that your application have. You will see each page poping out in the \
 screen and dissapearing. Once this process is done you can search for them in \
 the documentation center. \
 \>", "Text",
- CellID->1186132666,ExpressionUUID->"3ed24210-86d3-48be-9e55-6747d4d800af"],
+ CellID->1186132666,ExpressionUUID->"b3d41941-8d29-449b-ab05-09b47085e86c"],
 
 Cell[BoxData[
  RowBox[{"<<", "ApplicationMaker`"}]], "Input",
- CellLabel->"In[1]:=",
- CellID->241022361,ExpressionUUID->"a4eb9fa2-aa27-4ded-8440-dafad6e9d645"],
+ CellID->241022361,ExpressionUUID->"1a7dd2af-eaaf-4e42-89a7-5851865dd683"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"BuildApplication", "[", "\"\<SimpleArithmetic\>\"", "]"}]], "Input",\
 
- CellLabel->"In[2]:=",
- CellID->708663085,ExpressionUUID->"ac9d7c71-2d71-4ffb-83c3-e618bae20da6"],
+ CellID->708663085,ExpressionUUID->"634a8d19-5a1f-461f-866d-e17c8970b729"],
 
 Cell[CellGroupData[{
 
@@ -14194,8 +14153,7 @@ Cell[BoxData[
     GrayLevel[0.5]], 
    Style["AddThree", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->472011206,ExpressionUUID->"b1c4fedc-82b6-4553-9922-e8053c0ef210"],
+ CellID->472011206,ExpressionUUID->"2b910c26-89a6-4fac-adfe-274f85c95982"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -14215,8 +14173,7 @@ Cell[BoxData[
     GrayLevel[0.5]], 
    Style["AddTwo", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->287747224,ExpressionUUID->"89e870bc-2659-4094-8a06-78b3d5123456"],
+ CellID->287747224,ExpressionUUID->"7d92df06-2ccc-4622-9173-e223c98fb376"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -14236,8 +14193,7 @@ Cell[BoxData[
     GrayLevel[0.5]], 
    Style["DotThree", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->34420724,ExpressionUUID->"b5072957-a67d-400f-b837-5e6c953c590d"],
+ CellID->34420724,ExpressionUUID->"02ad807f-9794-48a2-9c62-766aaae4317f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -14257,22 +14213,19 @@ Cell[BoxData[
     GrayLevel[0.5]], 
    Style["DotTwo", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[2]:=",
- CellID->836007225,ExpressionUUID->"f6e2a54d-7ea6-4246-9581-4b90724a1cc1"]
+ CellID->836007225,ExpressionUUID->"d2267d2e-430a-456d-8cee-737e3a1dac4b"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[BoxData[
  RowBox[{"<<", "SimpleArithmetic`"}]], "Input",
- CellLabel->"In[3]:=",
- CellID->110456372,ExpressionUUID->"df4f2449-aa62-4032-ac21-6789cd1ad8b8"],
+ CellID->110456372,ExpressionUUID->"d6bc97f3-5572-44bf-9c8b-85e9a96f4115"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "AddThree"}]], "Input",
- CellLabel->"In[4]:=",
- CellID->1266125413,ExpressionUUID->"d7b92f0d-fd1e-41bd-8177-8c0c787b52fe"],
+ CellID->1266125413,ExpressionUUID->"a6c15a1d-ec32-4326-bfe3-3acce38705c2"],
 
 Cell[BoxData[
  RowBox[{
@@ -14285,14 +14238,14 @@ Cell[BoxData[
    ButtonData->"paclet:SimpleArithmetic/ref/AddThree"]}]], "Print", \
 "PrintUsage",
  CellTags->"Info3519364390-7331989",
- CellID->1935411901,ExpressionUUID->"6d4336f6-e76e-4d98-b60a-c23e5bcfb5e6"]
+ CellID->1935411901,ExpressionUUID->"5b308975-df45-41b1-9c3e-2cc4d33765f0"]
 }, Open  ]],
 
 Cell["\<\
 Notice that the usage messages has an arrow appended. This is a link to the \
 reference page which has been fully integrated to the documentation center.\
 \>", "Text",
- CellID->725576445,ExpressionUUID->"a25930a8-3af3-4fb8-a45b-c13e1dd48ab8"],
+ CellID->725576445,ExpressionUUID->"3b3f451d-8cb8-4267-bc55-bc2ae7d87cc2"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -15540,12 +15493,12 @@ BEEQBEEQBEGQjZ3/D5Dv2oY=
   ImageSize->Magnification[1],
   ImageSizeRaw->{641, 714},
   PlotRange->{{0, 641}, {0, 714}}]], "Text",
- CellID->533018998,ExpressionUUID->"2f6d7245-d4c9-47dd-a1ce-25e245300968"],
+ CellID->533018998,ExpressionUUID->"ad70931e-293e-4d10-8efc-b598c1762f9e"],
 
 Cell["\<\
 If we try searching for \"dotthree\" we obtain the following results\
 \>", "Text",
- CellID->1611481933,ExpressionUUID->"b684c097-ed02-4359-a454-009d88209e31"],
+ CellID->1611481933,ExpressionUUID->"08bd6df4-4b37-400c-b104-576d46d6e77b"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -16481,7 +16434,7 @@ GIZhGIZ5uOf/B6UyPO8=
   ImageSize->Magnification[1],
   ImageSizeRaw->{641, 714},
   PlotRange->{{0, 641}, {0, 714}}]], "Text",
- CellID->113091967,ExpressionUUID->"898712e6-c453-47c7-a24d-594e36b1a119"],
+ CellID->113091967,ExpressionUUID->"a113382d-a4be-4363-8470-7154212d6e3c"],
 
 Cell[TextData[{
  "There is a mistake in descriptions. You probably noticed that the functions \
@@ -16501,7 +16454,7 @@ that we can use the function ",
  StyleBox["DeployApplication", "Input"],
  "."
 }], "Text",
- CellID->1351163449,ExpressionUUID->"963ce933-7b3f-43e7-becc-575750490304"],
+ CellID->1351163449,ExpressionUUID->"4f1ba3c9-6b7b-40fd-bcc1-fb31633ebbb9"],
 
 Cell[CellGroupData[{
 
@@ -16510,8 +16463,7 @@ Cell[BoxData[
   RowBox[{
   "\"\<SimpleArithmetic\>\"", ",", " ", "\"\</Users/jmlopez/Desktop\>\""}], 
   "]"}]], "Input",
- CellLabel->"In[5]:=",
- CellID->213661774,ExpressionUUID->"03a8ffeb-3fee-4f10-b53b-942266934ba0"],
+ CellID->213661774,ExpressionUUID->"7a336bef-6ee2-4469-a21f-0f6f6077498f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -16532,8 +16484,7 @@ Cell[BoxData[
    Style[" has been deployed to ", "MSG"], 
    Style["/Users/jmlopez/Desktop/SimpleArithmetic", "MSG", Bold]],
   Editable->False]], "Print",
- CellLabel->"During evaluation of In[5]:=",
- CellID->420777834,ExpressionUUID->"f8af8a50-c5e2-4d08-b80c-85325175baf0"]
+ CellID->420777834,ExpressionUUID->"0a35f68a-3234-43cb-919c-6688ae8e34cb"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -16547,13 +16498,13 @@ Cell[TextData[{
  ". If you have questions about the ApplicationMaker functions just look at \
 its documentation."
 }], "Text",
- CellID->349406467,ExpressionUUID->"e57602d4-a450-4293-b5ac-b33ee1f61639"]
+ CellID->349406467,ExpressionUUID->"befca301-6024-4405-bc90-f3e725f676cc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Final words", "Section",
- CellID->1254199971,ExpressionUUID->"0bba58f1-41d2-48a3-9aad-6c8d86976ddb"],
+ CellID->1254199971,ExpressionUUID->"bd83823b-c3df-498d-aefb-13a968a45c03"],
 
 Cell[TextData[{
  "The ApplicationMaker application would not have been possible if it wasn't \
@@ -16575,7 +16526,7 @@ mathematicas-documentation-center/6660444#6660444"], None},
 mathematicas-documentation-center/6660444#6660444"],
  ". The same goes for bugs or suggestions to improve ApplicationMaker."
 }], "Text",
- CellID->1786917292,ExpressionUUID->"8d9f0cc8-14cb-4ef1-a849-f42fecb1c417"]
+ CellID->1786917292,ExpressionUUID->"ca6c056c-c965-49dd-b190-e60ca73deabb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -16583,7 +16534,7 @@ Cell[CellGroupData[{
 Cell["RELATED TUTORIALS", "RelatedTutorialsSection",
  CellID->580454628,
  ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
- True,ExpressionUUID->"0d39ce97-c0ec-436d-aff1-9c5165b8a840"],
+ True,ExpressionUUID->"3d0ef105-5840-4c68-a3cf-c173e57332ef"],
 
 Cell[TextData[ButtonBox["StackOverflow - Integrating Notebooks to \
 Documentation Center",
@@ -16591,7 +16542,7 @@ Documentation Center",
  ButtonData->{
    URL["http://stackoverflow.com/questions/6574710/integrating-notebooks-to-\
 mathematicas-documentation-center"], None}]], "RelatedLinks",ExpressionUUID->\
-"af6a6e63-6857-43e2-846c-74d442f729eb"]
+"db118145-47f1-49cf-886f-3affb8840c39"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -16599,22 +16550,23 @@ Cell[CellGroupData[{
 Cell["MORE ABOUT", "RelatedTutorialsSection",
  CellID->197352912,
  ApplicationMaker`DocumentationMaker`Private`WholeCellGroupOpener -> 
- True,ExpressionUUID->"ca45c12c-4fbe-4428-b5a8-ffa6c2fd2775"],
+ True,ExpressionUUID->"0bbcf212-bef6-43de-bb05-61f5aca20a16"],
 
 Cell[TextData[ButtonBox["ApplicationMaker",
  BaseStyle->"Link",
  ButtonData->"paclet:ApplicationMaker/guide/ApplicationMaker"]], "MoreAbout",
- CellID->1620237626,ExpressionUUID->"689102c9-ea44-46e8-84d7-665a1fc32738"]
+ CellID->1620237626,ExpressionUUID->"ff386c7e-0dae-4c2b-9d59-d006e5d3df71"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", "FooterCell",
- CellID->1899630473,ExpressionUUID->"a9164a45-8937-44df-b513-3bcde2fed595"]
+ CellID->1899630473,ExpressionUUID->"f0624e72-1187-47b2-95a9-0e5ec9806b9c"]
 },
 Saveable->False,
 WindowSize->{920, 737},
 WindowMargins->{{99, Automatic}, {5, Automatic}},
 WindowTitle->"HowToBuildADocumentedPackage - ApplicationMaker",
+Visible->False,
 DockedCells->FEPrivate`FrontEndResource[
  "FEExpressions", "HelpViewerToolbar"],
 PageHeaders->{{None, None, None}, {None, None, 
@@ -16646,7 +16598,7 @@ the plain installation of Mathematica 8 and ApplicationMaker.",
     "HowToBuildADocumentedPackage", "windowTitle" -> 
     "HowToBuildADocumentedPackage", "type" -> "Guide", "uri" -> 
     "ApplicationMaker/tutorial/HowToBuildADocumentedPackage"}, 
-  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+  "SearchTextTranslated" -> ""},
 FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
 2017)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
@@ -16658,387 +16610,387 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "Info3519338772-7445443"->{
-  Cell[242196, 4178, 346, 6, 
-  42, "Print", "ExpressionUUID" -> "2a557e05-27b2-4a6d-948e-58b51c0fcca1",
+  Cell[241639, 4162, 346, 6, 
+  42, "Print", "ExpressionUUID" -> "2fbe6ee9-a57c-446e-b5d2-a684c381cab5",
    CellTags->"Info3519338772-7445443",
    CellID->2026501343]},
  "Info3519364390-7331989"->{
-  Cell[842460, 14276, 398, 11, 
-  43, "Print", "ExpressionUUID" -> "6d4336f6-e76e-4d98-b60a-c23e5bcfb5e6",
+  Cell[840913, 14229, 398, 11, 
+  43, "Print", "ExpressionUUID" -> "5b308975-df45-41b1-9c3e-2cc4d33765f0",
    CellTags->"Info3519364390-7331989",
    CellID->1935411901]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Info3519338772-7445443", 982466, 16659},
- {"Info3519364390-7331989", 982664, 16664}
+ {"Info3519338772-7445443", 980848, 16611},
+ {"Info3519364390-7331989", 981046, 16616}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[618, 21, 1706, 37, 55, "AnchorBarGrid", "ExpressionUUID" -> \
-"545be89a-bae8-4433-8780-f322ab8b7f03",
+Cell[618, 21, 1706, 37, 47, "AnchorBarGrid", "ExpressionUUID" -> \
+"52c34f98-350f-4476-a4cf-9c8b999ab011",
  CellID->1033750982],
 Cell[CellGroupData[{
-Cell[2349, 62, 120, 1, 63, "Title", "ExpressionUUID" -> \
-"97bf4fc0-c0b5-42d5-bf96-2a4ea8c68435",
+Cell[2349, 62, 120, 1, 50, "Title", "ExpressionUUID" -> \
+"cfa71b10-16c7-4f14-b3ef-550e089654b1",
  CellID->1110050244],
-Cell[2472, 65, 293, 7, 60, "Text", "ExpressionUUID" -> \
-"db567119-5caf-4a6e-b06b-c792decf197f",
+Cell[2472, 65, 293, 7, 52, "Text", "ExpressionUUID" -> \
+"d8ebb0bb-8c2d-4f6c-9168-66e1d6697073",
  CellID->1424009419],
 Cell[CellGroupData[{
-Cell[2790, 76, 123, 1, 71, "Section", "ExpressionUUID" -> \
-"312d2889-e371-4d4e-9c0f-98884b7583c8",
+Cell[2790, 76, 123, 1, 52, "Section", "ExpressionUUID" -> \
+"eda7f9e7-aab2-440d-a29f-07aa043f18c0",
  CellID->1768542965],
-Cell[2916, 79, 371, 11, 62, "Text", "ExpressionUUID" -> \
-"8baaa528-c028-414b-8322-bbae8c5e5c44",
+Cell[2916, 79, 371, 11, 52, "Text", "ExpressionUUID" -> \
+"dd4fb1d5-6f65-4e4e-9051-f30b89a9d99d",
  CellID->1447167468],
-Cell[3290, 92, 872, 19, 370, "Program", "ExpressionUUID" -> \
-"15d20a47-f136-4393-b4a9-8a64909be3e4",
+Cell[3290, 92, 872, 19, 287, "Program", "ExpressionUUID" -> \
+"9a07cbd9-f218-46e4-97b7-6d690a7e0a8e",
  CellID->1993531484],
-Cell[4165, 113, 936, 21, 121, "Text", "ExpressionUUID" -> \
-"b5081df8-3634-446e-9b9b-586ecb28f697",
+Cell[4165, 113, 936, 21, 106, "Text", "ExpressionUUID" -> \
+"1925dae6-2068-445c-829d-47ae732dcb13",
  CellID->1746905603]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5138, 139, 123, 1, 64, "Section", "ExpressionUUID" -> \
-"6dd80774-b700-4d6c-889a-235149200d73",
+Cell[5138, 139, 123, 1, 52, "Section", "ExpressionUUID" -> \
+"3333c598-5e9c-4083-929b-c76fca1376bf",
  CellID->243791094],
 Cell[5264, 142, 426, 10, 52, "Text", "ExpressionUUID" -> \
-"df67b6c2-1d37-40ef-8831-6ea8d67a195b",
+"582ac087-93f5-4d42-82e6-0cceaa10c574",
  CellID->2145602029],
-Cell[5693, 154, 159, 3, 24, "Input", "ExpressionUUID" -> \
-"bd263da9-f061-47ee-8a5b-450543cf3034",
+Cell[5693, 154, 136, 2, 24, "Input", "ExpressionUUID" -> \
+"f775bd33-866a-4cd6-8e9e-f781a26302e6",
  CellID->587900979],
-Cell[5855, 159, 138, 1, 31, "Text", "ExpressionUUID" -> \
-"9a58589f-9a8f-4cfa-9a3e-f29a76103692",
+Cell[5832, 158, 138, 1, 31, "Text", "ExpressionUUID" -> \
+"63c02b78-46ee-4f86-bb66-69161ec0e09c",
  CellID->279494206],
 Cell[CellGroupData[{
-Cell[6018, 164, 188, 3, 24, "Input", "ExpressionUUID" -> \
-"db9b79ce-a1c6-4498-aa1a-d099617300b3",
+Cell[5995, 163, 165, 2, 24, "Input", "ExpressionUUID" -> \
+"d1040430-726b-4ae3-b607-ae1b54b3ead4",
  CellID->912384253],
 Cell[CellGroupData[{
-Cell[6231, 171, 804, 21, 20, "Print", "ExpressionUUID" -> \
-"cb9b7d25-73fc-41e6-91da-c82e82a0ef1a",
+Cell[6185, 169, 760, 20, 20, "Print", "ExpressionUUID" -> \
+"76b8ac67-5efa-4647-8477-54ed3ce45d3c",
  CellID->1408900591],
-Cell[7038, 194, 829, 21, 20, "Print", "ExpressionUUID" -> \
-"bf89dcc7-9097-45b1-8d87-99a2fc4faf72",
+Cell[6948, 191, 785, 20, 20, "Print", "ExpressionUUID" -> \
+"bc84e041-bd42-4925-ad56-ca6327ac99b5",
  CellID->1237541115],
-Cell[7870, 217, 814, 21, 20, "Print", "ExpressionUUID" -> \
-"1d1863f3-d685-4918-8926-1ebe7014f30f",
+Cell[7736, 213, 770, 20, 20, "Print", "ExpressionUUID" -> \
+"1272a8c4-a2a9-4ff4-be93-6855278cfa1d",
  CellID->974398610],
-Cell[8687, 240, 842, 21, 20, "Print", "ExpressionUUID" -> \
-"cd6b4f73-d96a-4fc5-9da9-302ed410f500",
+Cell[8509, 235, 798, 20, 20, "Print", "ExpressionUUID" -> \
+"ab4bdb58-d5cf-4ef2-b8f3-a929bbaaefa6",
  CellID->7146248],
-Cell[9532, 263, 859, 21, 20, "Print", "ExpressionUUID" -> \
-"431e58a3-4a9c-4735-a87b-714cc19d3329",
+Cell[9310, 257, 815, 20, 20, "Print", "ExpressionUUID" -> \
+"abdbd7b4-e290-4241-b348-4eb1dda37f83",
  CellID->1995389551],
-Cell[10394, 286, 875, 21, 20, "Print", "ExpressionUUID" -> \
-"b00c950a-7475-4661-b6e1-b29df6e6a421",
+Cell[10128, 279, 831, 20, 20, "Print", "ExpressionUUID" -> \
+"0bc27b6a-5f09-47b9-975a-33bb11667e67",
  CellID->1407552105],
-Cell[11272, 309, 863, 21, 20, "Print", "ExpressionUUID" -> \
-"7a781497-1a6a-4aed-87f4-19575f2921e2",
+Cell[10962, 301, 819, 20, 20, "Print", "ExpressionUUID" -> \
+"b267e0b0-5c0b-453a-a4fa-bb974de5327d",
  CellID->48373383],
-Cell[12138, 332, 891, 21, 20, "Print", "ExpressionUUID" -> \
-"91ddf26f-72a1-493a-b1ac-648ede5f2465",
+Cell[11784, 323, 847, 20, 20, "Print", "ExpressionUUID" -> \
+"42647c8a-a230-47e4-9cfb-46bed4b0eb5a",
  CellID->1262629515]
 }, Open  ]]
 }, Open  ]],
-Cell[13056, 357, 444, 10, 85, "Text", "ExpressionUUID" -> \
-"ddf89f81-1f23-4fb8-84a7-aa65baa07fbf",
+Cell[12658, 347, 444, 10, 85, "Text", "ExpressionUUID" -> \
+"0ef2cafc-5430-44ce-bcf5-311e3f500b99",
  CellID->1728342598],
 Cell[CellGroupData[{
-Cell[13525, 371, 177, 3, 24, "Input", "ExpressionUUID" -> \
-"17a28937-1489-495f-84f9-ef173b8258d5",
+Cell[13127, 361, 154, 2, 24, "Input", "ExpressionUUID" -> \
+"4bf7e9d4-db53-4bbe-b7c0-c5177f0fbf4c",
  CellID->1390235264],
-Cell[13705, 376, 346, 7, 21, "Message", "ExpressionUUID" -> \
-"115f34d7-19d8-4d31-a12a-bc8ffea3c89e",
+Cell[13284, 365, 302, 6, 21, "Message", "ExpressionUUID" -> \
+"fa59d6c9-d1e9-45e9-aa36-f46cbe35d54d",
  CellID->1062002688],
-Cell[14054, 385, 133, 2, 33, "Output", "ExpressionUUID" -> \
-"67351d7a-36e9-4929-bebd-8a7a3dea224f",
+Cell[13589, 373, 110, 1, 33, "Output", "ExpressionUUID" -> \
+"48e0c317-0e0d-433e-8fc0-bed329dc293c",
  CellID->1342586999]
 }, Open  ]],
-Cell[14202, 390, 540, 8, 94, "Text", "ExpressionUUID" -> \
-"df47b4fd-a763-4258-91fc-7b4e1eff3697",
+Cell[13714, 377, 540, 8, 94, "Text", "ExpressionUUID" -> \
+"bf73bb99-7ded-48cb-b0f9-c4dce03ec5d7",
  CellID->1249013164],
 Cell[CellGroupData[{
-Cell[14767, 402, 230, 5, 24, "Input", "ExpressionUUID" -> \
-"2187426b-6323-4c8b-a7f7-09610d83131d",
+Cell[14279, 389, 207, 4, 24, "Input", "ExpressionUUID" -> \
+"d8aa051f-52a5-48d4-9b20-abced09077d5",
  CellID->511597923],
-Cell[15000, 409, 1478, 43, 47, "Output", "ExpressionUUID" -> \
-"c3197e2c-0369-4b99-9822-da87075f16cc",
+Cell[14489, 395, 1455, 42, 47, "Output", "ExpressionUUID" -> \
+"34688678-cfbf-43ec-9e58-8cd4e3bcb092",
  CellID->2049252920]
 }, Open  ]],
-Cell[16493, 455, 97426, 1602, 685, "Text", "ExpressionUUID" -> \
-"d4d61aa1-d57a-45bb-96f5-fd409de3e8fc",
+Cell[15959, 440, 97426, 1602, 685, "Text", "ExpressionUUID" -> \
+"97d672dd-5dbd-4038-89d7-44e78674ea8b",
  CellID->451095854],
-Cell[113922, 2059, 367, 7, 52, "Text", "ExpressionUUID" -> \
-"6aef04c5-4df5-4431-a078-4a5b8b80e889",
+Cell[113388, 2044, 367, 7, 52, "Text", "ExpressionUUID" -> \
+"7b68dc08-8fff-4e17-acc5-4034d4f7673b",
  CellID->950744268],
-Cell[114292, 2068, 127406, 2093, 754, "Text", "ExpressionUUID" -> \
-"649dfa46-545f-4eeb-b94b-6d43b9c3683e",
+Cell[113758, 2053, 127406, 2093, 754, "Text", "ExpressionUUID" -> \
+"5c229593-9014-42ea-9257-df2302063445",
  CellID->1880578596],
-Cell[241701, 4163, 315, 6, 52, "Text", "ExpressionUUID" -> \
-"cb2f88fb-7ab0-4090-a0af-7dc0f7d54ba0",
+Cell[241167, 4148, 315, 6, 52, "Text", "ExpressionUUID" -> \
+"3bece716-50ac-4932-92fd-8b5ce67d0127",
  CellID->220146426],
 Cell[CellGroupData[{
-Cell[242041, 4173, 152, 3, 24, "Input", "ExpressionUUID" -> \
-"d225297b-3934-4b28-a96e-9ba298be8004",
+Cell[241507, 4158, 129, 2, 24, "Input", "ExpressionUUID" -> \
+"39a2a3f4-0475-4316-8b8a-3d5745586423",
  CellID->2034141648],
-Cell[242196, 4178, 346, 6, 42, "Print", "ExpressionUUID" -> \
-"2a557e05-27b2-4a6d-948e-58b51c0fcca1",
+Cell[241639, 4162, 346, 6, 42, "Print", "ExpressionUUID" -> \
+"2fbe6ee9-a57c-446e-b5d2-a684c381cab5",
  CellTags->"Info3519338772-7445443",
  CellID->2026501343]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[242579, 4189, 184, 3, 24, "Input", "ExpressionUUID" -> \
-"0da40656-e325-42bb-9428-2978abda0713",
+Cell[242022, 4173, 161, 2, 24, "Input", "ExpressionUUID" -> \
+"7273a9f3-1eaa-4566-8f05-82b566aa6c59",
  CellID->317430381],
-Cell[242766, 4194, 214, 3, 33, "Output", "ExpressionUUID" -> \
-"b1efe8ce-a432-4665-99dc-8ce4bd00a0d2",
+Cell[242186, 4177, 191, 2, 33, "Output", "ExpressionUUID" -> \
+"26a662e7-8222-4249-8706-8cc18f3b6f75",
  CellID->1228140770]
 }, Open  ]],
-Cell[242995, 4200, 442, 8, 73, "Text", "ExpressionUUID" -> \
-"4237a0c6-a289-427d-8fa7-e95bfeb881d6",
+Cell[242392, 4182, 442, 8, 73, "Text", "ExpressionUUID" -> \
+"0a21c7c8-9d10-4a2e-b4df-1ac33ca74947",
  CellID->442773639],
-Cell[243440, 4210, 159, 3, 24, "Input", "ExpressionUUID" -> \
-"45249f13-f034-4b68-be1d-e004f7869272",
+Cell[242837, 4192, 136, 2, 24, "Input", "ExpressionUUID" -> \
+"7b176174-1748-4150-b548-74015172b273",
  CellID->665713818],
 Cell[CellGroupData[{
-Cell[243624, 4217, 152, 3, 24, "Input", "ExpressionUUID" -> \
-"158b529c-1b6d-47e3-9d7a-4b6f1b55acce",
+Cell[242998, 4198, 129, 2, 24, "Input", "ExpressionUUID" -> \
+"012ef107-6252-44bc-a487-fb23205e43d8",
  CellID->262338256],
-Cell[243779, 4222, 281, 6, 21, "Message", "ExpressionUUID" -> \
-"bb8340f2-c45c-4dc7-be7f-3f424fc2a20b",
+Cell[243130, 4202, 237, 5, 21, "Message", "ExpressionUUID" -> \
+"10f52cc2-2db7-41d5-8036-a8bd6e0ba02a",
  CellID->388837538],
-Cell[244063, 4230, 132, 2, 33, "Output", "ExpressionUUID" -> \
-"0ea39376-ea14-4561-919f-d6fef8d85893",
+Cell[243370, 4209, 109, 1, 33, "Output", "ExpressionUUID" -> \
+"42779a22-36e8-434b-98ae-01becc0d65d7",
  CellID->399763345]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[244232, 4237, 186, 4, 24, "Input", "ExpressionUUID" -> \
-"13e1efb9-5352-4cbb-af86-8981fe82bd7a",
+Cell[243516, 4215, 163, 3, 24, "Input", "ExpressionUUID" -> \
+"a0864d7a-bce7-4cb3-a50f-4589fe3637df",
  CellID->2017723473],
-Cell[244421, 4243, 127, 2, 33, "Output", "ExpressionUUID" -> \
-"452d7b05-97f2-4ef8-8a13-80290173d24f",
+Cell[243682, 4220, 104, 1, 33, "Output", "ExpressionUUID" -> \
+"f78b7dc8-61c5-4eb3-a10d-69d0ae64511d",
  CellID->1493691599]
 }, Open  ]],
-Cell[244563, 4248, 119, 1, 31, "Text", "ExpressionUUID" -> \
-"1b4ab6a3-3cee-403d-942d-8f51025059c8",
+Cell[243801, 4224, 119, 1, 31, "Text", "ExpressionUUID" -> \
+"4e813950-8d7a-46f1-9b64-3b1fa5674418",
  CellID->390870963],
 Cell[CellGroupData[{
-Cell[244707, 4253, 237, 5, 24, "Input", "ExpressionUUID" -> \
-"25f49ee9-f3c3-4c5e-92da-88242f821eec",
+Cell[243945, 4229, 213, 4, 24, "Input", "ExpressionUUID" -> \
+"4ce35888-bfcd-4f42-b921-e8880841f944",
  CellID->215798968],
-Cell[244947, 4260, 1499, 43, 47, "Output", "ExpressionUUID" -> \
-"c2041d09-11fd-476f-bb20-b3b4a65b28ad",
+Cell[244161, 4235, 1475, 42, 47, "Output", "ExpressionUUID" -> \
+"528dfed0-a28a-4a93-b145-9e674e48fc7c",
  CellID->1980859040]
 }, Open  ]],
-Cell[246461, 4306, 128358, 2109, 758, "Text", "ExpressionUUID" -> \
-"1da1a8b2-3916-4a7d-b591-85f91ace0b2b",
+Cell[245651, 4280, 128358, 2109, 758, "Text", "ExpressionUUID" -> \
+"70b2439c-ccf0-48f1-8d4f-a35aea40b10f",
  CellID->2006389486],
 Cell[CellGroupData[{
-Cell[374844, 6419, 186, 3, 24, "Input", "ExpressionUUID" -> \
-"99fbf0bb-f504-4486-b4b8-274ecbcecfe0",
+Cell[374034, 6393, 162, 2, 24, "Input", "ExpressionUUID" -> \
+"efca002c-22b1-4639-a798-f49a4826564f",
  CellID->1599866008],
-Cell[375033, 6424, 214, 3, 33, "Output", "ExpressionUUID" -> \
-"836b6c78-58c4-4d0a-b9b8-a798637a1602",
+Cell[374199, 6397, 190, 2, 33, "Output", "ExpressionUUID" -> \
+"f6877440-ac36-455d-99c9-8714ee990e6b",
  CellID->305252369]
 }, Open  ]],
-Cell[375262, 6430, 343, 7, 52, "Text", "ExpressionUUID" -> \
-"0c566895-ed5e-41f5-8daf-8cb4a2ae710e",
+Cell[374404, 6402, 343, 7, 52, "Text", "ExpressionUUID" -> \
+"b71f33b1-52ea-47b5-ae8e-65644ade804d",
  CellID->38133100]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[375642, 6442, 130, 1, 52, "Section", "ExpressionUUID" -> \
-"2e8a79cd-822f-4524-a3e1-2f9948eb553d",
+Cell[374784, 6414, 130, 1, 52, "Section", "ExpressionUUID" -> \
+"3a281737-1d15-4040-86f6-143e26a83c13",
  CellID->952884894],
-Cell[375775, 6445, 232, 5, 31, "Text", "ExpressionUUID" -> \
-"43bcfd82-be10-41c7-aa78-9bdd658d1637",
+Cell[374917, 6417, 232, 5, 31, "Text", "ExpressionUUID" -> \
+"2b11312c-6721-4c1a-b034-88c23be33047",
  CellID->1350857779],
-Cell[376010, 6452, 159, 3, 24, "Input", "ExpressionUUID" -> \
-"2c250eff-b6d4-4dfd-89f5-89293e03b8b1",
+Cell[375152, 6424, 136, 2, 24, "Input", "ExpressionUUID" -> \
+"4a9f0273-9a84-47b6-bb71-477848637aa8",
  CellID->669575569],
 Cell[CellGroupData[{
-Cell[376194, 6459, 198, 4, 24, "Input", "ExpressionUUID" -> \
-"b0806aa3-f855-444a-8e10-d24e88b31348",
+Cell[375313, 6430, 175, 3, 24, "Input", "ExpressionUUID" -> \
+"aba0d9ce-52de-4c58-9266-b267af1b8a29",
  CellID->1660881281],
 Cell[CellGroupData[{
-Cell[376417, 6467, 472, 12, 20, "Print", "ExpressionUUID" -> \
-"887faa88-3b58-4f05-bb74-541371d30e99",
+Cell[375513, 6437, 428, 11, 20, "Print", "ExpressionUUID" -> \
+"da76068a-b14d-4377-bb0d-ce3c0df56265",
  CellID->1111782416],
-Cell[376892, 6481, 484, 12, 20, "Print", "ExpressionUUID" -> \
-"cee39dd3-500b-49ce-a650-fcc385306f77",
+Cell[375944, 6450, 440, 11, 20, "Print", "ExpressionUUID" -> \
+"75601f9b-31be-4fbe-ab83-b1fabf4bc5f6",
  CellID->1538381889]
 }, Open  ]]
 }, Open  ]],
-Cell[377403, 6497, 837, 12, 136, "Text", "ExpressionUUID" -> \
-"f9cc7ff1-9dcc-4872-b72b-d0d0d36f1350",
+Cell[376411, 6465, 837, 12, 136, "Text", "ExpressionUUID" -> \
+"2cd3c597-0666-4a61-b9a7-4d340eace8c1",
  CellID->1760536235],
 Cell[CellGroupData[{
-Cell[378265, 6513, 198, 4, 24, "Input", "ExpressionUUID" -> \
-"6e99e9cf-a709-4398-b1f6-7d583a1d52a9",
+Cell[377273, 6481, 175, 3, 24, "Input", "ExpressionUUID" -> \
+"9b4bde58-e41d-4d1c-a78f-44ca08738ceb",
  CellID->1302813279],
-Cell[378466, 6519, 471, 12, 20, "Print", "ExpressionUUID" -> \
-"de61c4d6-5592-4554-8a16-a37158c950c6",
+Cell[377451, 6486, 427, 11, 20, "Print", "ExpressionUUID" -> \
+"07e88727-1691-4203-8977-fd51b1ffc98b",
  CellID->639515341],
-Cell[378940, 6533, 1309, 23, 21, "Message", "ExpressionUUID" -> \
-"1304e13f-1db5-4756-a83d-b4d3633fada1",
+Cell[377881, 6499, 1265, 22, 21, "Message", "ExpressionUUID" -> \
+"d6b90f74-af7d-43c0-b4b4-1331fd4d6b3c",
  CellID->178682952],
-Cell[380252, 6558, 1301, 23, 21, "Message", "ExpressionUUID" -> \
-"da8429ec-af78-4496-86e2-ec3fca2d7b5b",
+Cell[379149, 6523, 1257, 22, 21, "Message", "ExpressionUUID" -> \
+"f7038afb-a21b-4a07-90fc-ad43e0aaeecb",
  CellID->942235758],
-Cell[381556, 6583, 483, 12, 20, "Print", "ExpressionUUID" -> \
-"8a2f6e40-3bf8-4796-acbd-7a1bc21bcb73",
+Cell[380409, 6547, 439, 11, 20, "Print", "ExpressionUUID" -> \
+"91a42cda-cb51-4049-844d-b5f1d243b469",
  CellID->611971728],
-Cell[382042, 6597, 1310, 23, 21, "Message", "ExpressionUUID" -> \
-"e17fb794-7edc-432b-901f-d147592156fe",
+Cell[380851, 6560, 1266, 22, 21, "Message", "ExpressionUUID" -> \
+"38064ccb-bd00-4ed3-9ce1-8af58c3cb34d",
  CellID->1109647013],
-Cell[383355, 6622, 1302, 23, 21, "Message", "ExpressionUUID" -> \
-"75927262-b432-4fde-9919-690213bf196f",
+Cell[382120, 6584, 1258, 22, 21, "Message", "ExpressionUUID" -> \
+"333b2128-6920-4a8e-84f9-b266902a5250",
  CellID->1089356943]
 }, Open  ]],
-Cell[384672, 6648, 151, 1, 31, "Text", "ExpressionUUID" -> \
-"2440eb1a-41a2-40db-8ef5-e42a8efb07b0",
+Cell[383393, 6609, 151, 1, 31, "Text", "ExpressionUUID" -> \
+"b85da28e-3e52-4b42-94a1-100c6974721a",
  CellID->1676371313],
-Cell[384826, 6651, 100969, 1660, 770, "Text", "ExpressionUUID" -> \
-"ea0fcf4d-60ac-44b9-95ed-1f27144f7038",
+Cell[383547, 6612, 100969, 1660, 770, "Text", "ExpressionUUID" -> \
+"c62e0a55-049e-4e54-9549-4e4f300e1b44",
  CellID->1934692598],
-Cell[485798, 8313, 604, 11, 94, "Text", "ExpressionUUID" -> \
-"cacb8743-481b-45f5-a71e-81258059503d",
+Cell[484519, 8274, 604, 11, 94, "Text", "ExpressionUUID" -> \
+"1fc37046-60c1-41b8-a6cd-49d9d94800af",
  CellID->1328595359],
-Cell[486405, 8326, 99, 1, 31, "Text", "ExpressionUUID" -> \
-"b504aafb-e89b-4467-b294-be8c058f765b",
+Cell[485126, 8287, 99, 1, 31, "Text", "ExpressionUUID" -> \
+"8c95aad0-c6fd-49a1-a2e3-f20f0ccfb6c4",
  CellID->1847127773],
-Cell[486507, 8329, 36466, 602, 301, "Text", "ExpressionUUID" -> \
-"19ede538-ac85-4d7b-90a9-93ade6fae1aa",
+Cell[485228, 8290, 36466, 602, 301, "Text", "ExpressionUUID" -> \
+"f37d8807-01fc-4e59-81c4-12ab0752117e",
  CellID->167237207],
-Cell[522976, 8933, 98, 1, 31, "Text", "ExpressionUUID" -> \
-"fd051772-dec3-449c-889c-abf78044d1d1",
+Cell[521697, 8894, 98, 1, 31, "Text", "ExpressionUUID" -> \
+"49414812-8354-469e-aa25-9c3971c798ae",
  CellID->652879779],
-Cell[523077, 8936, 35638, 589, 293, "Text", "ExpressionUUID" -> \
-"901b6792-1791-4426-b329-19a9f146e310",
+Cell[521798, 8897, 35638, 589, 293, "Text", "ExpressionUUID" -> \
+"c52cb44a-a306-40d2-bdf5-3847b26b9377",
  CellID->1456493130],
-Cell[558718, 9527, 1019, 20, 202, "Text", "ExpressionUUID" -> \
-"8afb05ec-470c-42a4-b5fe-4671dcf84b3d",
+Cell[557439, 9488, 1019, 20, 202, "Text", "ExpressionUUID" -> \
+"ed506c81-195e-4394-8282-b51438306d7f",
  CellID->113943757],
-Cell[559740, 9549, 65101, 1072, 714, "Text", "ExpressionUUID" -> \
-"2e05dc8b-2701-444b-87b5-777d60d3d761",
+Cell[558461, 9510, 65101, 1072, 714, "Text", "ExpressionUUID" -> \
+"ed8566e7-ff33-482d-8419-0172da77efe3",
  CellID->1644794422],
-Cell[624844, 10623, 482, 8, 73, "Text", "ExpressionUUID" -> \
-"58460208-b07e-4220-ba2f-bf507d5f34ab",
+Cell[623565, 10584, 482, 8, 73, "Text", "ExpressionUUID" -> \
+"f9c9d959-d18c-459f-b5ec-44d6fa8f18fd",
  CellID->1368491510],
-Cell[625329, 10633, 105487, 1734, 714, "Text", "ExpressionUUID" -> \
-"72e6f5a7-44a0-42d9-ae01-9dea2fb07bdf",
+Cell[624050, 10594, 105487, 1734, 714, "Text", "ExpressionUUID" -> \
+"2e49ddad-9380-4fc5-a125-f8bdb8383c4a",
  CellID->1130649531],
-Cell[730819, 12369, 365, 7, 52, "Text", "ExpressionUUID" -> \
-"6a0bde3d-0da8-4cae-b605-f885f4085f2e",
+Cell[729540, 12330, 365, 7, 52, "Text", "ExpressionUUID" -> \
+"3046e83a-a06d-49c5-b5d0-70698868cc57",
  CellID->1891358861],
-Cell[731187, 12378, 105963, 1742, 714, "Text", "ExpressionUUID" -> \
-"25e97d88-d4ef-432c-a3f9-6b5cef7113d8",
+Cell[729908, 12339, 105963, 1742, 714, "Text", "ExpressionUUID" -> \
+"7395ef83-b431-4d2c-93bf-a66657a19f66",
  CellID->1015433933],
-Cell[837153, 14122, 736, 11, 115, "Text", "ExpressionUUID" -> \
-"8ee70986-5236-4ea6-bc1d-a47eb9907389",
+Cell[835874, 14083, 736, 11, 115, "Text", "ExpressionUUID" -> \
+"d945a81c-56f0-4e5c-8d33-8b477eaf0d6a",
  CellID->345569222],
-Cell[837892, 14135, 470, 10, 73, "Text", "ExpressionUUID" -> \
-"68a12a41-3ac5-4864-8404-0c4d2e25755a",
+Cell[836613, 14096, 470, 10, 73, "Text", "ExpressionUUID" -> \
+"18a2cde7-cb84-49d4-937a-58bc4ba81085",
  CellID->683118128]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[838399, 14150, 126, 1, 52, "Section", "ExpressionUUID" -> \
-"ebffd411-cef9-40fb-a5eb-2377f6140295",
+Cell[837120, 14111, 126, 1, 52, "Section", "ExpressionUUID" -> \
+"cfbe0b34-90c3-447f-b6f4-b1316a96b785",
  CellID->686949200],
-Cell[838528, 14153, 516, 8, 94, "Text", "ExpressionUUID" -> \
-"3ed24210-86d3-48be-9e55-6747d4d800af",
+Cell[837249, 14114, 516, 8, 94, "Text", "ExpressionUUID" -> \
+"b3d41941-8d29-449b-ab05-09b47085e86c",
  CellID->1186132666],
-Cell[839047, 14163, 159, 3, 24, "Input", "ExpressionUUID" -> \
-"a4eb9fa2-aa27-4ded-8440-dafad6e9d645",
+Cell[837768, 14124, 136, 2, 24, "Input", "ExpressionUUID" -> \
+"1a7dd2af-eaaf-4e42-89a7-5851865dd683",
  CellID->241022361],
 Cell[CellGroupData[{
-Cell[839231, 14170, 192, 4, 24, "Input", "ExpressionUUID" -> \
-"ac9d7c71-2d71-4ffb-83c3-e618bae20da6",
+Cell[837929, 14130, 169, 3, 24, "Input", "ExpressionUUID" -> \
+"634a8d19-5a1f-461f-866d-e17c8970b729",
  CellID->708663085],
 Cell[CellGroupData[{
-Cell[839448, 14178, 662, 19, 20, "Print", "ExpressionUUID" -> \
-"b1c4fedc-82b6-4553-9922-e8053c0ef210",
+Cell[838123, 14137, 618, 18, 20, "Print", "ExpressionUUID" -> \
+"2b910c26-89a6-4fac-adfe-274f85c95982",
  CellID->472011206],
-Cell[840113, 14199, 658, 19, 20, "Print", "ExpressionUUID" -> \
-"89e870bc-2659-4094-8a06-78b3d5123456",
+Cell[838744, 14157, 614, 18, 20, "Print", "ExpressionUUID" -> \
+"7d92df06-2ccc-4622-9173-e223c98fb376",
  CellID->287747224],
-Cell[840774, 14220, 661, 19, 20, "Print", "ExpressionUUID" -> \
-"b5072957-a67d-400f-b837-5e6c953c590d",
+Cell[839361, 14177, 617, 18, 20, "Print", "ExpressionUUID" -> \
+"02ad807f-9794-48a2-9c62-766aaae4317f",
  CellID->34420724],
-Cell[841438, 14241, 658, 19, 20, "Print", "ExpressionUUID" -> \
-"f6e2a54d-7ea6-4246-9581-4b90724a1cc1",
+Cell[839981, 14197, 614, 18, 20, "Print", "ExpressionUUID" -> \
+"d2267d2e-430a-456d-8cee-737e3a1dac4b",
  CellID->836007225]
 }, Open  ]]
 }, Open  ]],
-Cell[842123, 14264, 159, 3, 24, "Input", "ExpressionUUID" -> \
-"df4f2449-aa62-4032-ac21-6789cd1ad8b8",
+Cell[840622, 14219, 136, 2, 24, "Input", "ExpressionUUID" -> \
+"d6bc97f3-5572-44bf-9c8b-85e9a96f4115",
  CellID->110456372],
 Cell[CellGroupData[{
-Cell[842307, 14271, 150, 3, 24, "Input", "ExpressionUUID" -> \
-"d7b92f0d-fd1e-41bd-8177-8c0c787b52fe",
+Cell[840783, 14225, 127, 2, 24, "Input", "ExpressionUUID" -> \
+"a6c15a1d-ec32-4326-bfe3-3acce38705c2",
  CellID->1266125413],
-Cell[842460, 14276, 398, 11, 43, "Print", "ExpressionUUID" -> \
-"6d4336f6-e76e-4d98-b60a-c23e5bcfb5e6",
+Cell[840913, 14229, 398, 11, 43, "Print", "ExpressionUUID" -> \
+"5b308975-df45-41b1-9c3e-2cc4d33765f0",
  CellTags->"Info3519364390-7331989",
  CellID->1935411901]
 }, Open  ]],
-Cell[842873, 14290, 252, 4, 52, "Text", "ExpressionUUID" -> \
-"a25930a8-3af3-4fb8-a45b-c13e1dd48ab8",
+Cell[841326, 14243, 252, 4, 52, "Text", "ExpressionUUID" -> \
+"3b3f451d-8cb8-4267-bc55-bc2ae7d87cc2",
  CellID->725576445],
-Cell[843128, 14296, 75738, 1246, 730, "Text", "ExpressionUUID" -> \
-"2f6d7245-d4c9-47dd-a1ce-25e245300968",
+Cell[841581, 14249, 75738, 1246, 730, "Text", "ExpressionUUID" -> \
+"ad70931e-293e-4d10-8efc-b598c1762f9e",
  CellID->533018998],
-Cell[918869, 15544, 168, 3, 31, "Text", "ExpressionUUID" -> \
-"b684c097-ed02-4359-a454-009d88209e31",
+Cell[917322, 15497, 168, 3, 31, "Text", "ExpressionUUID" -> \
+"08bd6df4-4b37-400c-b104-576d46d6e77b",
  CellID->1611481933],
-Cell[919040, 15549, 56702, 934, 730, "Text", "ExpressionUUID" -> \
-"898712e6-c453-47c7-a24d-594e36b1a119",
+Cell[917493, 15502, 56702, 934, 730, "Text", "ExpressionUUID" -> \
+"a113382d-a4be-4363-8470-7154212d6e3c",
  CellID->113091967],
-Cell[975745, 16485, 1117, 18, 211, "Text", "ExpressionUUID" -> \
-"963ce933-7b3f-43e7-becc-575750490304",
+Cell[974198, 16438, 1117, 18, 211, "Text", "ExpressionUUID" -> \
+"4f1ba3c9-6b7b-40fd-bcc1-fb31633ebbb9",
  CellID->1351163449],
 Cell[CellGroupData[{
-Cell[976887, 16507, 254, 6, 24, "Input", "ExpressionUUID" -> \
-"03a8ffeb-3fee-4f10-b53b-942266934ba0",
+Cell[975340, 16460, 231, 5, 24, "Input", "ExpressionUUID" -> \
+"7a336bef-6ee2-4469-a21f-0f6f6077498f",
  CellID->213661774],
-Cell[977144, 16515, 835, 20, 20, "Print", "ExpressionUUID" -> \
-"f8af8a50-c5e2-4d08-b80c-85325175baf0",
+Cell[975574, 16467, 791, 19, 20, "Print", "ExpressionUUID" -> \
+"0a35f68a-3234-43cb-919c-6688ae8e34cb",
  CellID->420777834]
 }, Open  ]],
-Cell[977994, 16538, 454, 11, 73, "Text", "ExpressionUUID" -> \
-"e57602d4-a450-4293-b5ac-b33ee1f61639",
+Cell[976380, 16489, 454, 11, 73, "Text", "ExpressionUUID" -> \
+"befca301-6024-4405-bc90-f3e725f676cc",
  CellID->349406467]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[978485, 16554, 106, 1, 52, "Section", "ExpressionUUID" -> \
-"0bba58f1-41d2-48a3-9aad-6c8d86976ddb",
+Cell[976871, 16505, 106, 1, 52, "Section", "ExpressionUUID" -> \
+"bd83823b-c3df-498d-aefb-13a968a45c03",
  CellID->1254199971],
-Cell[978594, 16557, 891, 20, 73, "Text", "ExpressionUUID" -> \
-"8d9f0cc8-14cb-4ef1-a849-f42fecb1c417",
+Cell[976980, 16508, 891, 20, 73, "Text", "ExpressionUUID" -> \
+"ca6c056c-c965-49dd-b190-e60ca73deabb",
  CellID->1786917292]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[979522, 16582, 204, 3, 45, "RelatedTutorialsSection", "ExpressionUUID" \
--> "0d39ce97-c0ec-436d-aff1-9c5165b8a840",
+Cell[977908, 16533, 204, 3, 45, "RelatedTutorialsSection", "ExpressionUUID" \
+-> "3d0ef105-5840-4c68-a3cf-c173e57332ef",
  CellID->580454628],
-Cell[979729, 16587, 327, 6, 16, "RelatedLinks", "ExpressionUUID" -> \
-"af6a6e63-6857-43e2-846c-74d442f729eb"]
+Cell[978115, 16538, 327, 6, 16, "RelatedLinks", "ExpressionUUID" -> \
+"db118145-47f1-49cf-886f-3affb8840c39"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[980093, 16598, 197, 3, 45, "RelatedTutorialsSection", "ExpressionUUID" \
--> "ca45c12c-4fbe-4428-b5a8-ffa6c2fd2775",
+Cell[978479, 16549, 197, 3, 45, "RelatedTutorialsSection", "ExpressionUUID" \
+-> "0bbcf212-bef6-43de-bb05-61f5aca20a16",
  CellID->197352912],
-Cell[980293, 16603, 217, 3, 16, "MoreAbout", "ExpressionUUID" -> \
-"689102c9-ea44-46e8-84d7-665a1fc32738",
+Cell[978679, 16554, 217, 3, 16, "MoreAbout", "ExpressionUUID" -> \
+"ff386c7e-0dae-4c2b-9d59-d006e5d3df71",
  CellID->1620237626]
 }, Open  ]]
 }, Open  ]],
-Cell[980537, 16610, 99, 1, 40, "FooterCell", "ExpressionUUID" -> \
-"a9164a45-8937-44df-b513-3bcde2fed595",
+Cell[978923, 16561, 99, 1, 40, "FooterCell", "ExpressionUUID" -> \
+"f0624e72-1187-47b2-95a9-0e5ec9806b9c",
  CellID->1899630473]
 }
 ]
