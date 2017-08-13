@@ -108,7 +108,7 @@ Cell[StyleData["Chapter"],
  CounterAssignments->{{"Section", 0}, {"Equation", 0}, {"Figure", 0}, {
    "Subtitle", 0}, {"Subsubtitle", 0}},
  FontFamily->"Georgia",
- FontSize->28,
+ FontSize->22,
  FontWeight->"Plain",
  FontColor->GrayLevel[
   0.137255],ExpressionUUID->"4636f179-fd72-4b32-b9c3-c28f965fbd35"],
@@ -137,7 +137,7 @@ Cell[StyleData["Title"],
  CounterAssignments->{{"Section", 0}, {"Equation", 0}, {"Figure", 0}, {
    "Subtitle", 0}, {"Subsubtitle", 0}},
  FontFamily->"Georgia",
- FontSize->32,
+ FontSize->26,
  FontWeight->"Plain",
  FontColor->GrayLevel[
   0.137255],ExpressionUUID->"bb574539-ab97-4c23-a19b-225435e787a7"],
